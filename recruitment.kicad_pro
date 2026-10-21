@@ -684,13 +684,33 @@
         "uuid": "bdc7face-9f7c-4701-80bb-4cc144448db1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1",
     "variants": []
   },
   "sheets": [
     [
       "bdc7face-9f7c-4701-80bb-4cc144448db1",
       "recruitment"
+    ],
+    [
+      "3519b270-ffd8-40bb-b763-9220e0b90788",
+      "Power"
+    ],
+    [
+      "066bef9c-3ee8-47bb-9a40-1c84ff5b6960",
+      "Inputs"
+    ],
+    [
+      "30ec489d-3016-4343-8d00-26eafa21f72a",
+      "Analog"
+    ],
+    [
+      "c591dd32-1940-4bd4-8e70-f932e5d5683d",
+      "Logic"
+    ],
+    [
+      "d4b7a572-cdd6-4450-a811-89bbaa4148db",
+      "Output"
     ]
   ],
   "text_variables": {},

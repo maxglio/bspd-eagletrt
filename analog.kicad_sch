@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b259b1a1-8ea3-4220-8add-d0a22df24421")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PWR_HIGH"
+		(shape output)
+		(at 102.87 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a9bd685-af93-4812-a4e6-0b6695d92795")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 31.75 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "308e3299-a369-4b24-bd0a-347fcee3b036")
+	)
+	(hierarchical_label "BRAKE_HIGH"
+		(shape output)
+		(at 102.87 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c70d742a-202c-4dfb-b01f-b5aee12dd848")
+	)
+	(hierarchical_label "SNS_FAULT"
+		(shape output)
+		(at 102.87 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df31afac-fbf3-4bca-b3f1-69f1c31d7ed4")
+	)
+	(hierarchical_label "BRAKE_FILT"
+		(shape input)
+		(at 30.48 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f54cad0c-af44-458d-8fc8-07f3adfa0d34")
+	)
+	(hierarchical_label "PWR_FILT"
+		(shape input)
+		(at 30.48 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd639589-8ca9-4570-9727-05e66d505051")
+	)
+)

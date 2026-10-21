@@ -12,6 +12,456 @@
 		(comment 1 "Massimo Maglio")
 	)
 	(lib_symbols)
+	(sheet
+		(at 55.88 105.41)
+		(size 36.83 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "066bef9c-3ee8-47bb-9a40-1c84ff5b6960")
+		(property "Sheetname" "Inputs"
+			(at 55.88 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputs.kicad_sch"
+			(at 55.88 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 55.88 115.57 180)
+			(uuid "1b4f6534-6396-4938-a604-8bdf3f31406e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BRAKE_FILT" output
+			(at 92.71 125.73 0)
+			(uuid "0ace5f54-1d9d-41a9-8e9b-e8325e58329e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRAKE_IN" input
+			(at 55.88 125.73 180)
+			(uuid "1867353b-24dd-4ea5-aeb8-c3924b9f530c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_FILT" output
+			(at 92.71 129.54 0)
+			(uuid "d2db31fa-bdb4-43d8-a6d7-d3ee3800a744")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_IN" input
+			(at 55.88 129.54 180)
+			(uuid "e01b2b20-c8bd-4252-ac1a-eefd64d0877d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 53.34)
+		(size 30.48 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "30ec489d-3016-4343-8d00-26eafa21f72a")
+		(property "Sheetname" "Analog"
+			(at 109.22 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 109.22 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 123.19 53.34 90)
+			(uuid "29ffaa28-3540-45c7-8b68-ca60bf9690c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRAKE_FILT" input
+			(at 109.22 125.73 180)
+			(uuid "f8cef3fa-8b82-4ce6-a338-1a0373939789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BRAKE_HIGH" output
+			(at 139.7 67.31 0)
+			(uuid "00b1b881-30a3-4d49-b31d-5d3489fc30c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_FILT" input
+			(at 109.22 129.54 180)
+			(uuid "a2a15019-8e6b-4481-a072-c45f18c4ba97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_HIGH" output
+			(at 139.7 71.12 0)
+			(uuid "952db4f8-a27c-453a-9762-52563af7d494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SNS_FAULT" output
+			(at 139.7 88.9 0)
+			(uuid "24458a27-7435-4b20-b73e-14e0b4ec19cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 53.34)
+		(size 36.83 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3519b270-ffd8-40bb-b763-9220e0b90788")
+		(property "Sheetname" "Power"
+			(at 55.88 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 55.88 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5v" output
+			(at 86.36 53.34 90)
+			(uuid "ed68ad8e-db6e-4efd-8487-f05b4f493797")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_RELAY" output
+			(at 76.2 53.34 90)
+			(uuid "f952f18d-5b14-4c94-b22e-0756f494de11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 55.88 71.12 180)
+			(uuid "448e422d-de88-49b7-9a21-a61a7d9a1421")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 53.34)
+		(size 30.48 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c591dd32-1940-4bd4-8e70-f932e5d5683d")
+		(property "Sheetname" "Logic"
+			(at 153.67 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic.kicad_sch"
+			(at 153.67 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 168.91 53.34 90)
+			(uuid "8918b68b-3090-4b91-bb21-b2913de9900f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRAKE_HIGH" input
+			(at 153.67 67.31 180)
+			(uuid "bfc1dd5d-5592-470e-a1c9-559d04a3e6ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BSPD_OK" output
+			(at 184.15 125.73 0)
+			(uuid "c59e7c1a-af59-46d8-ba6e-4882f4ee2cef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SNS_FAULT" input
+			(at 153.67 88.9 180)
+			(uuid "7d541899-0dfc-4d7f-a938-9bbeac5631da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_HIGH" input
+			(at 153.67 71.12 180)
+			(uuid "ab62346e-fdc9-457d-98f9-d6012b5b6f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 53.34)
+		(size 30.48 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4b7a572-cdd6-4450-a811-89bbaa4148db")
+		(property "Sheetname" "Output"
+			(at 198.12 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 198.12 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_RELAY" input
+			(at 213.36 53.34 90)
+			(uuid "4f0ce7d7-35dd-4455-a2e6-fc1bd632c798")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BSPD_OK" input
+			(at 198.12 125.73 180)
+			(uuid "d838d0f8-e916-4e0c-84c3-5ffc6a2f1e6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDC" output
+			(at 228.6 127 0)
+			(uuid "a0691b38-51db-4f95-bd94-47bf173a20b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

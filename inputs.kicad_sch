@@ -5,4 +5,59 @@
 	(uuid "d5167e4f-54d5-4b56-adb0-e663d76d6f4b")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "BRAKE_FILT"
+		(shape output)
+		(at 77.47 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ba201fe-6298-43ac-b449-d7deaa0aa74b")
+	)
+	(hierarchical_label "BRAKE_IN"
+		(shape input)
+		(at 24.13 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "164544bb-65ca-4d87-8c42-49446702e1ed")
+	)
+	(hierarchical_label "PWR_IN"
+		(shape input)
+		(at 24.13 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f3593c5-1fd9-44d4-bfea-9a215bc7268f")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 24.13 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f1e3ac6-a51e-4dec-8f2b-1e0096252c45")
+	)
+	(hierarchical_label "PWR_FILT"
+		(shape output)
+		(at 76.2 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfe297c9-90d9-41b4-9c39-094bf3725b97")
+	)
 )

@@ -5,4 +5,37 @@
 	(uuid "e091a887-be84-4a9d-b195-3ded29602f75")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "BSPD_OK"
+		(shape input)
+		(at 38.1 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "450db4d0-fc62-4841-922b-20de686d3502")
+	)
+	(hierarchical_label "SDC"
+		(shape output)
+		(at 114.3 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "653b733f-3b53-48c5-a2a1-105309fd09ef")
+	)
+	(hierarchical_label "+5V_RELAY"
+		(shape input)
+		(at 38.1 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef1b0e65-3eb0-450a-a01e-e8213160ccec")
+	)
 )

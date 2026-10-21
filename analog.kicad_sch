@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "32ca9a76-3914-4c9f-b7ea-f1680071fbd6")
+	(uuid "93afcd8b-6fbc-4127-960d-f4d7a5e71076")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "PWR_HIGH"

@@ -49,6 +49,17 @@
 		)
 		(uuid "9f1e3ac6-a51e-4dec-8f2b-1e0096252c45")
 	)
+	(hierarchical_label "+5V_OUT"
+		(shape output)
+		(at 76.2 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3fd3776-a2eb-4eba-a055-c6cd1dbeb594")
+	)
 	(hierarchical_label "PWR_FILT"
 		(shape output)
 		(at 76.2 59.69 0)

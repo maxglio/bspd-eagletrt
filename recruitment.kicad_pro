@@ -560,14 +560,6 @@
         "wire_width": 12
       },
       {
-        "name": "PWR_IN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgb(255, 13, 22)",
-        "tuning_profile": "",
-        "wire_width": 12
-      },
-      {
         "name": "PWR_SIG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
@@ -587,7 +579,7 @@
         "name": "SDC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(255, 255, 255)",
+        "schematic_color": "rgb(183, 9, 255)",
         "tuning_profile": "",
         "wire_width": 12
       },
@@ -599,6 +591,14 @@
         "schematic_color": "rgb(64, 39, 2)",
         "tuning_profile": "",
         "wire_width": 6
+      },
+      {
+        "name": "V_IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(255, 13, 22)",
+        "tuning_profile": "",
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -654,6 +654,14 @@
       {
         "netclass": "SDC",
         "pattern": "/Output/SDC"
+      },
+      {
+        "netclass": "V_IN",
+        "pattern": "/Power/VIN"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "/Inputs/+5V_OUT"
       }
     ]
   },
@@ -807,7 +815,7 @@
         "uuid": "bdc7face-9f7c-4701-80bb-4cc144448db1"
       }
     ],
-    "used_designators": "#PWR1-4,J1-3",
+    "used_designators": "#PWR1-4,J1-4",
     "variants": []
   },
   "sheets": [

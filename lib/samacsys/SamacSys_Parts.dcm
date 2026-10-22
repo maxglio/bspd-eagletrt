@@ -24,4 +24,16 @@ K
 F https://www.molex.com/pdm_docs/sd/436500200_sd.pdf
 $ENDCMP
 #
+$CMP 43650-0201
+D Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black
+K
+F https://www.molex.com/pdm_docs/sd/436500200_sd.pdf
+$ENDCMP
+#
+$CMP 43650-0301
+D Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 3 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black
+K
+F https://www.molex.com/pdm_docs/sd/436500200_sd.pdf
+$ENDCMP
+#
 #End Doc Library

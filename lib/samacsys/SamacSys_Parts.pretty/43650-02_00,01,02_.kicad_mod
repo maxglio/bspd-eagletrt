@@ -30,8 +30,8 @@
   (pad 1 thru_hole rect (at 0 0) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3 0) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask))
   (pad 3 np_thru_hole circle (at -1.5 4.32) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-  (model "C:\\Users\\massi\\Desktop\\EAGLE\\bspd-eagletrt\\lib\\samacsys\\SamacSys_Parts.3dshapes\\43650-0200.stp"
-    (at (xyz -0.059055118110236 -0.15669291413675 0.096062994378758))
+  (model "C:\\Users\\massi\\Desktop\\EAGLE\\bspd-eagletrt\\lib\\samacsys\\SamacSys_Parts.3dshapes\\43650-0201.stp"
+    (at (xyz -0.057480316462479 -0.15669291413675 0.094488192731001))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

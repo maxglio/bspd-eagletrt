@@ -12,18 +12,14 @@
 		(comment 1 "Massimo Maglio")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "43650-0301_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "J2"
+				(at 20.32 -1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -32,8 +28,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "43650-0301"
+				(at 17.78 -1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -42,7 +38,31 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "43650-03YY"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 3 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,8 +73,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "9.9"
+				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -62,10 +82,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Mouser Part Number" "538-43650-0301"
+				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -73,10 +94,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0301?qs=g09wx6CSrvwrZKNaCFqM9g%3D%3D"
+				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -84,10 +106,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -95,12 +118,25 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(property "Manufacturer_Part_Number" "43650-0301"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "43650-0301_1_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -109,32 +145,10 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 7.62 -8.89 90)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -150,9 +164,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 10.16 -8.89 90)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -160,6 +174,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -8.89 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -170,18 +202,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "43650-0301_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J2"
+				(at 20.32 -1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -190,8 +218,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "43650-0301"
+				(at 17.78 -1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -200,7 +228,31 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "43650-03YY"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 3 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -211,8 +263,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "9.9"
+				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -220,10 +272,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Mouser Part Number" "538-43650-0301"
+				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -231,10 +284,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0301?qs=g09wx6CSrvwrZKNaCFqM9g%3D%3D"
+				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -242,10 +296,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -253,12 +308,25 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(property "Manufacturer_Part_Number" "43650-0301"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "43650-0301_2_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -267,43 +335,10 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 7.62 -8.89 90)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -319,9 +354,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 10.16 -8.89 90)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -337,9 +372,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
+					(at 12.7 -8.89 90)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -347,6 +382,180 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys:43650-0201"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "43650-0201"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "43650-02(00,01,02)"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "5.57"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "538-43650-0201"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0201?qs=HlEFOAM0q6XDqOKWr68Eiw%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "43650-0201"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "43650-0201_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -486,10 +695,16 @@
 		(uuid "0a2fd45c-9b04-4f45-8c80-59edd65254df")
 	)
 	(junction
-		(at 55.88 113.03)
+		(at 41.91 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ae41339-3689-43fb-b0c1-ba4ea87fe750")
+		(uuid "0f38b49d-811e-4e2c-aabe-167455186f63")
+	)
+	(junction
+		(at 41.91 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fc7636f-99da-4aab-af4c-8ff0f9ef72be")
 	)
 	(junction
 		(at 45.72 121.92)
@@ -498,16 +713,10 @@
 		(uuid "12050475-1aaa-4aeb-a13c-8163a7b7fdfd")
 	)
 	(junction
-		(at 44.45 118.11)
+		(at 237.49 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15aa8347-9250-4ae6-b762-af77372a193d")
-	)
-	(junction
-		(at 44.45 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3897e096-0305-4b72-a477-b85ca62bd3f4")
+		(uuid "2ffecca7-eb20-4cc7-99fb-ad5a5efd5ea1")
 	)
 	(junction
 		(at 153.67 67.31)
@@ -516,10 +725,10 @@
 		(uuid "3a18b1be-f6ad-4604-9600-72db2667a868")
 	)
 	(junction
-		(at 44.45 127)
+		(at 41.91 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ea29e4c-7c5f-427a-99c6-fb50335bad72")
+		(uuid "3d90c5f6-c6ed-4688-a311-7264efd3a893")
 	)
 	(junction
 		(at 139.7 67.31)
@@ -528,10 +737,10 @@
 		(uuid "3fd406d3-65b1-4658-b4fa-574cfca5e7c0")
 	)
 	(junction
-		(at 55.88 132.08)
+		(at 55.88 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4100ebd1-4d0c-4b33-b68a-f1c0be15ce02")
+		(uuid "42300e68-0a07-4082-9ce4-0f9de031b858")
 	)
 	(junction
 		(at 153.67 71.12)
@@ -552,22 +761,28 @@
 		(uuid "4931b6b6-4174-472a-a0b2-c494f53b1335")
 	)
 	(junction
-		(at 238.76 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49ee286d-801b-4036-94b8-db28351a5c96")
-	)
-	(junction
 		(at 124.46 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4caedc96-e1a6-4701-be02-82407732a075")
 	)
 	(junction
+		(at 41.91 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc10301-70d2-4b8e-aa83-8c9f75cdfced")
+	)
+	(junction
 		(at 109.22 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52a5bc2e-03f3-4fab-9f38-ac1f4af7de8b")
+	)
+	(junction
+		(at 41.91 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e84850-717b-49dc-beb5-a2eb1416b7ae")
 	)
 	(junction
 		(at 139.7 71.12)
@@ -582,16 +797,22 @@
 		(uuid "634d5c5b-0bfc-4cb2-8ffa-de40e2943864")
 	)
 	(junction
-		(at 44.45 132.08)
+		(at 237.49 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "660bf557-dc7c-4193-982b-372dfdc80a6f")
+		(uuid "64cdbc79-c9f3-4da7-832b-5a8bebd42217")
 	)
 	(junction
 		(at 55.88 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "696af0fc-101a-4729-a49f-2ff8959facd5")
+	)
+	(junction
+		(at 45.72 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b54dd61-0dc3-4e89-8a0b-2b3cbd3342cf")
 	)
 	(junction
 		(at 170.18 53.34)
@@ -606,34 +827,28 @@
 		(uuid "8194a5d9-f5b5-45cd-b4f5-3ab51e7af159")
 	)
 	(junction
+		(at 43.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f4e9eff-4a46-4d37-aeaf-d72417f0b26d")
+	)
+	(junction
 		(at 55.88 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9223daa3-bf6e-427b-abec-ddc959c03b5d")
 	)
 	(junction
-		(at 44.45 113.03)
+		(at 55.88 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9419367b-6038-462a-87fd-a6a83c1e5744")
-	)
-	(junction
-		(at 48.26 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95685d4d-1ac4-4fd7-9798-6acc3fdf36cb")
+		(uuid "977d9b8c-9a6b-4e9d-a94a-f447fd914298")
 	)
 	(junction
 		(at 104.14 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a4f0130-e2dc-46f1-a024-7b92de50a557")
-	)
-	(junction
-		(at 48.26 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a83eb499-0b5e-49b5-b75c-ea82f6c932b5")
 	)
 	(junction
 		(at 213.36 53.34)
@@ -646,6 +861,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2bf9051-447a-400b-856f-395ba6e48980")
+	)
+	(junction
+		(at 45.72 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73a3f5e-7808-47ca-ac0e-defc1699b489")
 	)
 	(junction
 		(at 92.71 120.65)
@@ -666,24 +887,6 @@
 		(uuid "c79611d5-b9fd-4316-9195-75811a25c6dd")
 	)
 	(junction
-		(at 44.45 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9b2b546-0048-41af-9ff6-e509f625ca93")
-	)
-	(junction
-		(at 44.45 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6189a28-5786-46bd-80fd-5e551aa954dc")
-	)
-	(junction
-		(at 238.76 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d68ea135-3f9f-435c-b478-aa98143aa662")
-	)
-	(junction
 		(at 184.15 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -702,16 +905,22 @@
 		(uuid "ea6406e1-9860-48f2-8c46-2cb6dc5f5c19")
 	)
 	(junction
-		(at 44.45 68.58)
+		(at 41.91 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7c91e41-89de-4ec8-a408-48a81f8f204a")
+		(uuid "eada31ee-8322-48fe-9a46-042ee31c5e41")
 	)
 	(junction
 		(at 139.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa1dc8a5-8d73-461b-890a-70bea40fd70f")
+	)
+	(junction
+		(at 43.18 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb4dff6e-7575-420e-9585-c8347feebe9d")
 	)
 	(wire
 		(pts
@@ -725,6 +934,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 133.35) (xy 41.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057f041f-0b24-4a7f-8b5a-48563abf0578")
+	)
+	(wire
+		(pts
 			(xy 104.14 76.2) (xy 104.14 49.53)
 		)
 		(stroke
@@ -732,16 +951,6 @@
 			(type default)
 		)
 		(uuid "0b79cfd6-8bac-4602-a9ef-b1c83d1dc5ad")
-	)
-	(wire
-		(pts
-			(xy 44.45 132.08) (xy 55.88 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c33c809-88a7-46f4-a9f2-ccc95d106668")
 	)
 	(wire
 		(pts
@@ -795,26 +1004,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 71.12) (xy 55.88 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fff6a32-ea4c-4174-ab92-afb9db5feec8")
-	)
-	(wire
-		(pts
-			(xy 238.76 121.92) (xy 240.03 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b632d2-2a7e-4ca1-bb56-d75d74d50545")
-	)
-	(wire
-		(pts
 			(xy 138.43 71.12) (xy 139.7 71.12)
 		)
 		(stroke
@@ -832,6 +1021,16 @@
 			(type default)
 		)
 		(uuid "29f30acb-0a10-4001-9f72-0c2d01b72e52")
+	)
+	(wire
+		(pts
+			(xy 40.64 114.3) (xy 41.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c021084-261b-44f9-8574-28bd1ee89c22")
 	)
 	(wire
 		(pts
@@ -855,26 +1054,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 49.53 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "320f6a64-a7b6-4ee6-8829-4c5b3d82de87")
-	)
-	(wire
-		(pts
-			(xy 48.26 115.57) (xy 49.53 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f8c9c7-3258-4e60-8f66-9ccdd54eb876")
-	)
-	(wire
-		(pts
 			(xy 213.36 53.34) (xy 213.36 54.61)
 		)
 		(stroke
@@ -885,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 121.92) (xy 45.72 118.11)
+			(xy 45.72 114.3) (xy 45.72 121.92)
 		)
 		(stroke
 			(width 0)
@@ -905,33 +1084,33 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 68.58) (xy 48.26 68.58)
+			(xy 41.91 135.89) (xy 55.88 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44348e6a-4cd7-4600-83d5-3d4707cedee8")
+		(uuid "416ce2c5-4e8d-4453-88cc-00d09788b199")
 	)
 	(wire
 		(pts
-			(xy 43.18 113.03) (xy 44.45 113.03)
+			(xy 40.64 111.76) (xy 41.91 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4443abe0-cc00-463c-aa2c-02bcd2498be7")
+		(uuid "42b19e70-272f-4cac-a2a5-bcc5ce6aadfd")
 	)
 	(wire
 		(pts
-			(xy 43.18 132.08) (xy 44.45 132.08)
+			(xy 233.68 121.92) (xy 237.49 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "449b0af3-a00f-434e-8bc7-0db3f68105bb")
+		(uuid "46f6f8e6-00c7-4f35-a281-d59fb886f00c")
 	)
 	(wire
 		(pts
@@ -955,6 +1134,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 130.81) (xy 45.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5f9eb1-efc0-4a52-b8a8-06d8ab6c79dd")
+	)
+	(wire
+		(pts
 			(xy 104.14 111.76) (xy 104.14 76.2)
 		)
 		(stroke
@@ -962,16 +1151,6 @@
 			(type default)
 		)
 		(uuid "4d7c9dcc-69ee-432e-ba5b-0401ac5e17c9")
-	)
-	(wire
-		(pts
-			(xy 43.18 118.11) (xy 44.45 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1287bd-6163-4645-ada6-3b34a2dc9c4a")
 	)
 	(wire
 		(pts
@@ -995,23 +1174,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 115.57) (xy 48.26 115.57)
+			(xy 41.91 109.22) (xy 55.88 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55941ab8-6da0-4edd-b64c-2b1a231c2613")
-	)
-	(wire
-		(pts
-			(xy 55.88 132.08) (xy 57.15 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d8c083-ef45-467c-aa18-06c2186e0e4e")
+		(uuid "5741d578-b502-47fd-bf3c-38eb99442d99")
 	)
 	(wire
 		(pts
@@ -1045,6 +1214,36 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 133.35) (xy 45.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfba93f-d625-47a1-a861-08a78f9ac076")
+	)
+	(wire
+		(pts
+			(xy 55.88 109.22) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716d811a-c7ed-49db-b52f-fc0f7952c7ab")
+	)
+	(wire
+		(pts
+			(xy 55.88 135.89) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7364a8b7-4b2a-40c5-81c0-7bd24ad4d5fb")
+	)
+	(wire
+		(pts
 			(xy 99.06 69.85) (xy 99.06 45.72)
 		)
 		(stroke
@@ -1062,6 +1261,16 @@
 			(type default)
 		)
 		(uuid "7a34f159-e8b3-423c-b8f5-6200a850c62c")
+	)
+	(wire
+		(pts
+			(xy 43.18 71.12) (xy 55.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7ab632-a7aa-4551-aa20-c0bb96f4b759")
 	)
 	(wire
 		(pts
@@ -1085,16 +1294,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 118.11) (xy 45.72 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8402296a-169a-4b9c-b094-2cdf2e706943")
-	)
-	(wire
-		(pts
 			(xy 124.46 49.53) (xy 170.18 49.53)
 		)
 		(stroke
@@ -1105,23 +1304,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 129.54) (xy 48.26 129.54)
+			(xy 43.18 68.58) (xy 48.26 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8aa784e0-f4be-448e-b64c-faf3dcbf7dfe")
-	)
-	(wire
-		(pts
-			(xy 43.18 68.58) (xy 44.45 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "931d6778-c504-4e69-9662-0fbcaafc5a42")
+		(uuid "8c261499-9ace-4f4f-ae56-dd5410a7a05c")
 	)
 	(wire
 		(pts
@@ -1145,6 +1334,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 71.12) (xy 43.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bfc47e-ca2f-45e2-92d7-3d6964d4a412")
+	)
+	(wire
+		(pts
+			(xy 40.64 135.89) (xy 41.91 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5fbc02-1783-4a5e-b7b7-541db6f00906")
+	)
+	(wire
+		(pts
 			(xy 45.72 121.92) (xy 55.88 121.92)
 		)
 		(stroke
@@ -1165,27 +1374,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 129.54) (xy 44.45 129.54)
+			(xy 237.49 121.92) (xy 238.76 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b52d7770-344f-4db5-8323-0ec33a0e89a7")
+		(uuid "b924153f-312e-4198-851d-e11c05200967")
 	)
 	(wire
 		(pts
-			(xy 43.18 71.12) (xy 44.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68e42f9-1989-4705-ac8c-356f7cdbd2c0")
-	)
-	(wire
-		(pts
-			(xy 238.76 124.46) (xy 240.03 124.46)
+			(xy 228.6 124.46) (xy 237.49 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1205,13 +1404,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 121.92) (xy 238.76 121.92)
+			(xy 237.49 124.46) (xy 238.76 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c52bd3ec-0acf-4d61-8138-a31a5aff2206")
+		(uuid "c59e5296-7094-4a39-882d-a5e3cc3f6303")
 	)
 	(wire
 		(pts
@@ -1222,6 +1421,36 @@
 			(type default)
 		)
 		(uuid "c5b8ecd1-d30c-4c45-b399-df3402411446")
+	)
+	(wire
+		(pts
+			(xy 41.91 111.76) (xy 45.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca509a91-6192-4485-9d95-644e3e2f5496")
+	)
+	(wire
+		(pts
+			(xy 45.72 133.35) (xy 46.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7731c1-0a52-4c08-aa63-39eea3893ac3")
+	)
+	(wire
+		(pts
+			(xy 41.91 68.58) (xy 43.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce8088f-c85c-4b4a-bba0-c94ca0b4f5ff")
 	)
 	(wire
 		(pts
@@ -1255,16 +1484,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 113.03) (xy 55.88 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d877f8a2-4a8f-41e7-9011-b2c72b52159e")
-	)
-	(wire
-		(pts
 			(xy 92.71 120.65) (xy 109.22 120.65)
 		)
 		(stroke
@@ -1275,33 +1494,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 127) (xy 45.72 121.92)
+			(xy 45.72 121.92) (xy 45.72 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e10ea155-6e97-4ffa-9645-2dde453118ed")
-	)
-	(wire
-		(pts
-			(xy 44.45 127) (xy 45.72 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65a2c58-e87c-455b-967b-cb0563179f1f")
-	)
-	(wire
-		(pts
-			(xy 43.18 127) (xy 44.45 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e3c7ed-d5bb-4294-9a1f-01782f469ad1")
 	)
 	(wire
 		(pts
@@ -1312,6 +1511,26 @@
 			(type default)
 		)
 		(uuid "ea2335be-f66a-4fae-9da6-08b5e5e0e85a")
+	)
+	(wire
+		(pts
+			(xy 45.72 111.76) (xy 46.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7fd0a3-d874-493f-ad91-fe10411fe0c2")
+	)
+	(wire
+		(pts
+			(xy 40.64 130.81) (xy 41.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5fb3f3-eb4d-4939-a562-e07132aab845")
 	)
 	(wire
 		(pts
@@ -1335,23 +1554,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 238.76 124.46)
+			(xy 41.91 114.3) (xy 45.72 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f015688e-f13f-4278-adbd-9c48814de7e5")
-	)
-	(wire
-		(pts
-			(xy 55.88 113.03) (xy 57.15 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f255459c-bcd0-4e7e-b1e6-88861a04bc6b")
+		(uuid "f6caf2ed-110f-4f68-9c2c-b0ab5cc3a87b")
 	)
 	(wire
 		(pts
@@ -1375,13 +1584,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 115.57) (xy 44.45 115.57)
+			(xy 40.64 109.22) (xy 41.91 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa387016-5065-4891-89a7-f5d9c47dc2b3")
+		(uuid "fb9d5f18-279f-4455-909b-863e68078eba")
 	)
 	(wire
 		(pts
@@ -1392,6 +1601,85 @@
 			(type default)
 		)
 		(uuid "fe19380e-c5a7-43a5-a92a-55b809ca525b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c0c87bd-c5ac-4087-ab9e-197c46f87a99")
+		(property "Reference" "#PWR03"
+			(at 52.07 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a63ad5b8-b8e9-4527-9e48-206716bedcf7")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1473,8 +1761,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 71.12 180)
+		(lib_name "43650-0301_1")
+		(lib_id "SamacSys:43650-0301")
+		(at 33.02 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1483,9 +1772,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f5be97c-fe5d-4970-b0ef-a5bfda3760a5")
-		(property "Reference" "J1"
-			(at 39.37 62.23 0)
+		(uuid "11ecfd24-4c66-4359-96e7-34dfac0afb6b")
+		(property "Reference" "J2"
+			(at 34.29 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1494,8 +1783,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 39.37 64.77 0)
+		(property "Value" "43650-0301"
+			(at 34.29 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1504,8 +1793,32 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 39.37 71.12 0)
+		(property "Footprint" "43650-03YY"
+			(at 127.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+			(at 227.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 3 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
+			(at 33.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1515,8 +1828,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 39.37 71.12 0)
+		(property "Height" "9.9"
+			(at 427.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1524,10 +1837,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 71.12 0)
+		(property "Mouser Part Number" "538-43650-0301"
+			(at 527.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1535,26 +1849,212 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "2"
-			(uuid "ad4a51c0-7ba7-49fc-9781-d91a8a635457")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0301?qs=g09wx6CSrvwrZKNaCFqM9g%3D%3D"
+			(at 627.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 727.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0301"
+			(at 827.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "1"
-			(uuid "354db8b6-db4b-4c4c-887d-a7d05d4ea5e1")
+			(uuid "fd8be075-8764-49ad-a30e-04f856b8f169")
+		)
+		(pin "3"
+			(uuid "d09198aa-d29a-4523-a7ab-756c74b41338")
+		)
+		(pin "2"
+			(uuid "e01f9cc8-dc3b-4bd9-8003-4a5e0908ee20")
 		)
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 129.54 90)
+		(lib_name "43650-0301_2")
+		(lib_id "SamacSys:43650-0301")
+		(at 33.02 123.19 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d6b942d-aa5d-4b02-90ab-317e248d7c75")
+		(property "Reference" "J3"
+			(at 34.29 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "43650-0301"
+			(at 34.29 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "43650-03YY"
+			(at 127.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+			(at 227.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 3 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
+			(at 33.02 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.9"
+			(at 427.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "538-43650-0301"
+			(at 527.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0301?qs=g09wx6CSrvwrZKNaCFqM9g%3D%3D"
+			(at 627.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 727.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0301"
+			(at 827.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "17370f56-70f5-4b40-9807-236ba9a750eb")
+		)
+		(pin "3"
+			(uuid "bc299ba5-9893-4ed8-83c4-8c6d71382191")
+		)
+		(pin "2"
+			(uuid "3d220495-d29a-46a0-be6f-d7c005dde719")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:43650-0201")
+		(at 237.49 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1563,9 +2063,55 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46815b3a-180f-4ad0-b97a-ebd18de18744")
-		(property "Reference" "#PWR03"
-			(at 54.61 129.54 0)
+		(uuid "3b423074-4ec0-42a8-b215-30bce874541e")
+		(property "Reference" "J4"
+			(at 254 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "43650-0201"
+			(at 254 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "43650-02(00,01,02)"
+			(at 254 216.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+			(at 254 316.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
+			(at 237.49 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1575,19 +2121,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 52.07 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 129.54 0)
+		(property "Height" "5.57"
+			(at 254 516.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,10 +2130,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 48.26 129.54 0)
+		(property "Mouser Part Number" "538-43650-0201"
+			(at 254 616.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1606,10 +2142,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 129.54 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0201?qs=HlEFOAM0q6XDqOKWr68Eiw%3D%3D"
+			(at 254 716.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1617,15 +2154,185 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 254 816.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0201"
+			(at 254 916.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
-			(uuid "04225526-00d7-4a84-a25a-2f52ebd1d89c")
+			(uuid "3e80df90-3c12-4f56-af50-d6d7281cce65")
+		)
+		(pin "2"
+			(uuid "77109574-17cc-4cd2-a224-333230a1408c")
 		)
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "#PWR03")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:43650-0201")
+		(at 43.18 68.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "468a0fbd-5302-439a-a390-3f52bed5df7a")
+		(property "Reference" "J1"
+			(at 33.02 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "43650-0201"
+			(at 33.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "43650-02(00,01,02)"
+			(at 26.67 163.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+			(at 26.67 263.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "5.57"
+			(at 26.67 463.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "538-43650-0201"
+			(at 26.67 563.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0201?qs=HlEFOAM0q6XDqOKWr68Eiw%3D%3D"
+			(at 26.67 663.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 26.67 763.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0201"
+			(at 26.67 863.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "fce7ee2a-0522-4e81-96d4-9394e54b4b24")
+		)
+		(pin "1"
+			(uuid "dba036cb-c8cd-4a6a-878c-5f6281159e17")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1711,261 +2418,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 243.84 124.46 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "545288d7-a4e5-44cc-a060-d04f892a316f")
-		(property "Reference" "J4"
-			(at 246.38 124.4601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 246.38 121.9201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 243.84 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44bd281a-eae0-43c1-9b15-9c0d3fcc34fa")
-		)
-		(pin "1"
-			(uuid "10126911-7a35-4a33-94e1-3b201ea4c16a")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 39.37 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73c628b6-9a59-4388-a80e-e1602dde45e0")
-		(property "Reference" "J2"
-			(at 39.37 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 38.1001 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
-			(at 39.37 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0147a730-01d7-45a6-9dc3-32b70d5b574d")
-		)
-		(pin "1"
-			(uuid "87c13d3b-438d-433c-99a2-ff68be17da7d")
-		)
-		(pin "2"
-			(uuid "615007d2-af66-42d0-b1b6-a199a10cfaf7")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 39.37 129.54 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89aa19ee-d83f-4a20-b4db-1f90d444b100")
-		(property "Reference" "J3"
-			(at 40.6401 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 38.1001 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
-			(at 39.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3e1ac62-f263-4149-81c2-39827b701fef")
-		)
-		(pin "3"
-			(uuid "f8fbcf30-ca58-48f5-bb2d-4618469f81c5")
-		)
-		(pin "2"
-			(uuid "94fd4307-6aa3-47d8-a272-5fdaa2b6c3f5")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 48.26 115.57 90)
+		(at 45.72 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1974,9 +2428,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad358aaf-7915-4e9a-b558-ce90cf0e2cbf")
+		(uuid "a699177c-2b98-40a7-a392-317407fd8b00")
 		(property "Reference" "#PWR02"
-			(at 54.61 115.57 0)
+			(at 52.07 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +2441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 115.5699 90)
+			(at 49.53 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1998,7 +2452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 115.57 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 115.57 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2020,7 +2474,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 115.57 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2031,7 +2485,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b107a7ed-8ff3-41f2-b799-c3fcd7286b87")
+			(uuid "61aecc5a-6d00-42a9-ab70-b4f23f029b44")
 		)
 		(instances
 			(project "recruitment"
@@ -2076,7 +2530,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left top)
 			)
 		)
 		(pin "+5V" input
@@ -2119,9 +2573,9 @@
 				(justify left)
 			)
 		)
-		(pin "BRAKE_IN" input
-			(at 55.88 113.03 180)
-			(uuid "f8816ec9-363e-470a-a024-4553b27d4e9a")
+		(pin "PWR_IN" input
+			(at 55.88 135.89 180)
+			(uuid "8c79fb48-d92a-4c28-b520-a3d65ec6464b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,9 +2583,9 @@
 				(justify left)
 			)
 		)
-		(pin "PWR_IN" input
-			(at 55.88 132.08 180)
-			(uuid "def86049-567a-4251-8677-72356b464557")
+		(pin "BRAKE_IN" input
+			(at 55.88 109.22 180)
+			(uuid "2288b96b-df92-4803-85ae-17a4fa7f3216")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -36,4 +36,10 @@ K
 F https://www.molex.com/pdm_docs/sd/436500200_sd.pdf
 $ENDCMP
 #
+$CMP LT8607EMSE#PBF
+D LINEAR TECHNOLOGY - LT8607EMSE#PBF - DC/DC CONV, SYNC BUCK, 2.2MHZ, MSOP-10
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-39/7842.pdf
+$ENDCMP
+#
 #End Doc Library

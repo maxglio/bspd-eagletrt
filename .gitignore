@@ -4,3 +4,8 @@ _autosave-*
 fp-info-cache
 *.kicad_prl
 .history/
+*.raw
+*.log
+*.net
+*.op.raw
+*.fft

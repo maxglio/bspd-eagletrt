@@ -31,6 +31,36 @@
 
 2. DESCRIPTION OF THE BLOCKS
     2.1 Power
+        -Requirements: The power supply block is asked to take an unstable current between 9V and 17V and regulate it into a 5V to power the device.
+
+        -Block Overview: [connector] -> [protections] -> [buck] -> [5V traces] -> [device's components].
+
+        -Input protection: A TVS diode was placed before the switching buck in order to protect it from high-voltage spikes. After it there are 2 capacitors, the 100uF is needed to avoid voltage drops at a low frequency, the 100 nF is needed to cover high frequency voltage drops.
+
+        -Current budget: To projecting the power supply an estimated current consumption was needed.
+        Sensors (from project requirements): 30mA
+        Voltage dividers (I = V/R, see section 2.3): 1.5mA
+        Comparators (2 × TLV9024-Q1, 8 channels × 35 µA): 0.3mA
+        Logic block: 1mA
+        LEDs (5 × 2 mA): 10mA
+        Relay coil: 30mA
+        Total: 75mA
+
+        The board drwas about 75mA, which is 10% of the buck's rated current, leavil a big margin for thermal derating, startup inrush and potential future changes.
+        With P_out = 5V x 75mA = 0,38W, with an 85% effincency at 12V(from the datasheet), P_in will be about 0.44W.
+
+        -Regulator choice: The switching buck was chosen in order to have a better thermal efficency, the LDO would have had too much power to dissipate and the buck + LDO design was overkilled. (see decision.md)
+        The chip was specifically chosen sinche it had a big margin for voltage spike and output current, Wide frequency range(200 MHz-2,2GHz).
+
+        -Calcolation
+
+        -Thermal Scenario
+
+        -Simulation(foto e )
+
+        -Relay coil supply: To avoid any issue with 
+
+
     2.2 Inputs
     2.3 Analog
     2.4 Logic

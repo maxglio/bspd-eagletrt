@@ -72,4 +72,22 @@ K
 F https://industry.panasonic.com/ac/cdn/e/control/relay/signal/catalog/mech_eng_tq.pdf
 $ENDCMP
 #
+$CMP TQ2SA-4.5V-Z
+D Flat, 5 mm 2 Form C, 2 A, relays
+K
+F https://industry.panasonic.com/ac/cdn/e/control/relay/signal/catalog/mech_eng_tq.pdf
+$ENDCMP
+#
+$CMP SMBJ18A-E3_5B
+D Diode TVS Single Uni-Dir 18V 600W 2-Pin SMB T/R
+K
+F http://www.vishay.com/docs/88392/smbj.pdf
+$ENDCMP
+#
+$CMP XFL4020-472MEC
+D Fixed Inductors 4.7Uh Shld 5A 57.4mOhms AECQ2
+K
+F https://componentsearchengine.com/Datasheets/2/XFL4020-472MEC.pdf
+$ENDCMP
+#
 #End Doc Library

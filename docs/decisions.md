@@ -14,7 +14,7 @@ The first and main problem in the power supply is to regulate the unstable volta
 - Switching buck
 - LDO + SWB
 
-The main issue with the LDO is heat dissipation: in the worst-case scenario, with an estimated load of 130/150 mA and a 12 V voltage drop, we would have to dissipate about 1.6 W.
+The main issue with the LDO is heat dissipation: in the worst-case scenario, with an estimated load of 75/80 mA and a 12 V voltage drop, we would have to dissipate about 1.6 W.
 Since it's not waterproof, the BSPD is supposed to stay in a sealed box, and dissipating 1.6 W in a closed box might become a problem.
 
 The second option, the one I went for, is the switching buck. The main problem with it is the noisy output, but with the right inductor and some capacitors I was able to get a signal at 5 V +- 10 mV.

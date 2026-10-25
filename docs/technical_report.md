@@ -91,11 +91,27 @@
 
 
     2.2 Inputs
+        -Requirements
+        The input block must take in the sensor signal, with the background noise, and give a clean output without altering the power or brake signal. The filter delay must be unnoticable compared to the 500ms timer.
+        -Block overview
+        [sensors] -> [RC filter] -> [analog block]
+        -Assumption
+        The signals must chang in the tens of milliseconds range, while the noise picked up from the inverter is much faster(KHz to MHz).  The comparator inputs draw almost no current, so they do not lead the filter.
+        -Calculation
+        Given the assumptions, the filter is identacal for each sensor.
+        The filter time costaant was set to 1ms, so that the filter can settle(at 5τ = 99,3%) in about 1% of the 500ms timer.
+        With a 10k resistor and a standart 100nF capacitor, the cut-off frequency is about 158Hz, the fastest pedal movemete (about 50ms) corresponds to 7Hz.
+        The filter lets the signal pass almost with no changes, 99.8% considering 10Hz. While the inverter nois at 10kHz is reduced of about 63 times.
+
+        -Simulation
+        All the pictures of the simulation are in the [sim/inputs](../sim/inputs/) folder.
+
+
     2.3 Analog
     2.4 Logic
     2.5 Output
     2.6 Connectors
-        All the external connections use connectors frotm the same family(Molex Micro-Fit 3.0). The 2 main features are the locking latch, which keep the cable connetced also under the vehicle vibrations, and a polarized housing, to prevent the connector to be inserted the wrong way. 
+        All the external connections use connectors from the same family(Molex Micro-Fit 3.0). The 2 main features are the locking latch, which keep the cable connetced also under the vehicle vibrations, and a polarized housing, to prevent the connector to be inserted the wrong way. 
         The 2 pin version(43650-0201) is used for the power input and the 3 pin version(43650-0301) for the sensors. Since some connectors are identical, each cable must be labelled and colour-coded to avoid plugging it into the wrong connector.
 
 

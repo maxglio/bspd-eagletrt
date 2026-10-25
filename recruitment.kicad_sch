@@ -2745,7 +2745,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+5v" output
+		(pin "+5V" output
 			(at 92.71 76.2 0)
 			(uuid "ed68ad8e-db6e-4efd-8487-f05b4f493797")
 			(effects

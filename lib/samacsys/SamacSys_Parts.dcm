@@ -90,4 +90,16 @@ K
 F https://componentsearchengine.com/Datasheets/2/XFL4020-472MEC.pdf
 $ENDCMP
 #
+$CMP BLM18KG601SH1D
+D BLM18_H1D Series EMI Suppression Filter 600+/-25% at 100MHz 1.3A @85
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP PMEG6020ER,115
+D Nexperia PMEG6020ER,115 SMT Schottky Diode, 60V 2A, 2-Pin SOD-123W
+K
+F https://assets.nexperia.com/documents/data-sheet/PMEG6020ER.pdf
+$ENDCMP
+#
 #End Doc Library

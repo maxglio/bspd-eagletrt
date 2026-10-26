@@ -92,7 +92,7 @@
 
     2.2 Inputs
         -Requirements
-        The input block must take in the sensor signal, with the background noise, and give a clean output without altering the power or brake signal. The filter delay must be unnoticable compared to the 500ms timer.
+        The input block must take in the sensor signal, with the background noise, and give a clean output without altering the power or brake signal. The filter delay must be unnoticable compared to the 500ms timer. The block must also make disconnected sensor detectable.
         -Block overview
         [sensors] -> [RC filter] -> [analog block]
         -Assumption
@@ -102,12 +102,44 @@
         The filter time costaant was set to 1ms, so that the filter can settle(at 5τ = 99,3%) in about 1% of the 500ms timer.
         With a 10k resistor and a standart 100nF capacitor, the cut-off frequency is about 158Hz, the fastest pedal movemete (about 50ms) corresponds to 7Hz.
         The filter lets the signal pass almost with no changes, 99.8% considering 10Hz. While the inverter nois at 10kHz is reduced of about 63 times.
+        Attached to the pwr_in and brake_in wires there is a 100k pull down resistor to put the voltage to 0, making the disconnected sensor detected.
 
         -Simulation
         All the pictures of the simulation are in the [sim/inputs](../sim/inputs/) folder.
 
 
     2.3 Analog
+        -Requirements
+        The analog block must detect when the power and braking sensors are over their trigger threshold (5kW and 30 bar), and when the sensor give an out of range value, out of the 0,5-4,5V interval.
+        The result are sent to the Logic block.
+        -Block overview
+        [Filtered signals] -> [comparators] -> [logic block]
+        -Trigger threshold
+        Brake threshold:
+        The brake pressure sensor is linear: 0.5 V at 0 bar and 4.5 V at 100 bar.
+        The sensor has sensitivity of (4,5-0,5)V/100bar 0.04V/bar. To find the 30 bar corresponding voltage, the sesitivity must be multiplied by the pressure and than added the 0.5V offset:
+        0,5V + 0.04V/bar*30bar = 0,5V + 1,2V = 1,7V.
+        The comparator must therefore activate when the signal rises aboe 1,7V.
+
+        Power threshold:
+        The power sensor is linear: 0,5V at -100A, 2,5V at 0A and 4,5V at 100A.
+        For the calculation we can just operate with postive current, since the negative means the motor is giving current to the battery.
+        The sensor's sensitivity is (4,5-2,5)V/100A = 0,02V/A
+        The trigger power is 5kW, to find the current value we need to chose the right voltage value, which is in the 400V-600V range by the battery specs, by using A = P/V.
+        Choosing 600V as reference:
+        A = 5kW/600V = 8.33A, so the triggere voltage will be at 2,5V + 0,02V/A*8.33A = 2,5V + 0,167 = 2,67V.
+        But in this case when the voltage drops to 400V, the reference power would decrease to 8,33A*400V = 3,33kW, letting the BSPD lock at a lower power.
+        Choosing 400V as reference:
+        A = 5kW/400V = 12.5A, so the trigger voltage would become 2,5V + 0,02V/A*12,5AA = 2,5V + 0,25V = 2,75V.
+        But at the start of the race, when the battery delivers 600V the power would be 12,5A*600V = 7,5kW.
+
+        Wanting to keep the max deliverable power at 5kw, the right decision is by choosing 600V as reference, so the power threshold will be 2,67V.        
+
+        -Calculation
+        For each voltage partitioner the sum of the resistors will be about 100k, in order to have an ignorable current, about 50uA.
+        
+
+        -Simulation
     2.4 Logic
     2.5 Output
     2.6 Connectors

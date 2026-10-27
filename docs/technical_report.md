@@ -127,7 +127,7 @@
         The sensor's sensitivity is (4,5-2,5)V/100A = 0,02V/A
         The trigger power is 5kW, to find the current value we need to chose the right voltage value, which is in the 400V-600V range by the battery specs, by using A = P/V.
         Choosing 600V as reference:
-        A = 5kW/600V = 8.33A, so the triggere voltage will be at 2,5V + 0,02V/A*8.33A = 2,5V + 0,167 = 2,67V.
+        A = 5kW/600V = 8.33A, so the triggere voltage will be at 2,5V + 0,02V/A*8.33A = 2,5V + 0,167 = 2,667V.
         But in this case when the voltage drops to 400V, the reference power would decrease to 8,33A*400V = 3,33kW, letting the BSPD lock at a lower power.
         Choosing 400V as reference:
         A = 5kW/400V = 12.5A, so the trigger voltage would become 2,5V + 0,02V/A*12,5AA = 2,5V + 0,25V = 2,75V.
@@ -137,7 +137,8 @@
 
         -Calculation
         For each voltage partitioner the sum of the resistors will be about 100k, in order to have an ignorable current, about 50uA.
-        
+        Due to the histeresis, needed by the comparator, the brake and power treshold needs to be considered 1% lower. 1,7/1,01 = 1,683V & 2,667/1,01 = 2.640V.
+
 
         -Simulation
     2.4 Logic

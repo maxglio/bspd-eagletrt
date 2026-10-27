@@ -136,9 +136,8 @@
         Wanting to keep the max deliverable power at 5kw, the right decision is by choosing 600V as reference, so the power threshold will be 2,67V.        
 
         -Calculation
-        For each voltage partitioner the sum of the resistors will be about 100k, in order to have an ignorable current, about 50uA.
-        Due to the histeresis, needed by the comparator, the brake and power treshold needs to be considered 1% lower. 1,7/1,01 = 1,683V & 2,667/1,01 = 2.640V.
-
+        For each voltage partitioner the sum of the resistors will be about 100k, in order to have an ignorable current, about 49uA.
+        The ratio between R_S and R_H (10 kΩ / 1 MΩ) was chosen to obtain about 50 mV of hysteresis, about eight times the residual noise after the input filter. Since this ratio raises trigger point by 1 %, the divider voltages must be 1 % lower: 1,7/1,01 = 1,683V & 2,667/1,01 = 2.640V.
 
         -Simulation
     2.4 Logic

@@ -139,8 +139,23 @@
         For each voltage partitioner the sum of the resistors will be about 100k, in order to have an ignorable current, about 49uA.
         The ratio between R_S and R_H (10 kΩ / 1 MΩ) was chosen to obtain about 50 mV of hysteresis, about eight times the residual noise after the input filter. Since this ratio raises trigger point by 1 %, the divider voltages must be 1 % lower: 1,7/1,01 = 1,683V & 2,667/1,01 = 2.640V.
 
-        -Simulation
     2.4 Logic
+        -Requirements
+        The logic block must provide a single signal, which is high when evertyhing works and goes to low then something is wrong(HArd braking with high power for more than 500ms or sensor fault).
+        Once low the signal must be low until the device is powered off.
+        - Block overview    
+        [BRAKE_HIGH, POWER_HIGH] -> [AND 1] -> [RC timer] -> [Schmitt inverter] -> [AND 2] -> [latch] -> [Output block]
+                                                                      [SENSOR_OK] -^
+        -Timer
+        The timer is based on RC architecture, powered from the AND 1, and followed by a schmitt trigger inverter.
+        When the AND 1 is powered, the capacitor starts charging and when crosses the trigger'sthreshold, the inverter goes low(fault).
+        THe schmitt is placed because the capacitor charges slowly, and an istant change.
+        The chosen schmitt triggere is the Nexperia 74HC14PW-Q100, which has positive going threshold of 2.38V when powerd at 4.5V and 3.14V at 6.0V. 
+        Interpolating between the two at 4.94V the threshold will be about 2.60V.
+        From inverting the capacitor charging formula t = 0,75τ, choosing 485ms as t, when got τ = 0,65s:
+        Choosing a 1uF capacitor, and τ = R*C we got R = 650k.
+        -Calculation
+        -Simulation
     2.5 Output
     2.6 Connectors
         All the external connections use connectors from the same family(Molex Micro-Fit 3.0). The 2 main features are the locking latch, which keep the cable connetced also under the vehicle vibrations, and a polarized housing, to prevent the connector to be inserted the wrong way. 

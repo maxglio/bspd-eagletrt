@@ -2679,7 +2679,7 @@
 				(justify right)
 			)
 		)
-		(pin "SNS_FAULT" output
+		(pin "SENSOR_OK" output
 			(at 139.7 88.9 0)
 			(uuid "24458a27-7435-4b20-b73e-14e0b4ec19cf")
 			(effects
@@ -2841,7 +2841,7 @@
 				(justify right)
 			)
 		)
-		(pin "SNS_FAULT" input
+		(pin "SENSOR_OK" input
 			(at 153.67 88.9 180)
 			(uuid "7d541899-0dfc-4d7f-a938-9bbeac5631da")
 			(effects

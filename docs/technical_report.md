@@ -148,14 +148,19 @@
                                                                       [SENSOR_OK] -^
         -Timer
         The timer is based on RC architecture, powered from the AND 1, and followed by a schmitt trigger inverter.
-        When the AND 1 is powered, the capacitor starts charging and when crosses the trigger'sthreshold, the inverter goes low(fault).
-        THe schmitt is placed because the capacitor charges slowly, and an istant change.
+        When hard braking and high power are present at the same time, the AND1 output goes high the capacitor starts charging and when crosses the trigger'sthreshold, the inverter goes low(fault).
+        The schmitt is placed because the capacitor charges slowly,and thanks to his hysteresis it switches only with a clean edge.
         The chosen schmitt triggere is the Nexperia 74HC14PW-Q100, which has positive going threshold of 2.38V when powerd at 4.5V and 3.14V at 6.0V. 
         Interpolating between the two at 4.94V the threshold will be about 2.60V.
-        From inverting the capacitor charging formula t = 0,75τ, choosing 485ms as t, when got τ = 0,65s:
+        From inverting the capacitor charging formula t = 0,75τ, the chosen delay was 485ms, just below the 500ms, this gives a τ = 0.65s,
         Choosing a 1uF capacitor, and τ = R*C we got R = 650k.
-        -Calculation
+
+        -Start up reset
+        When turned on the latch could start in a random state, and the sensors filters need a few milliseconds to settle.
+        With a 1uF capatitor and a 100k resistor, followed by a smith inverter, keeps ready low for about 117ms after power up(when the 1.54V_T- is crossed), holding latch in OK state.
+         
         -Simulation
+         All the pictures of the simulation are in the [sim/logic](../sim/logic/) folder.
 
         
     2.5 Output

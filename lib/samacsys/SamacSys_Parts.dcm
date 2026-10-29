@@ -108,4 +108,22 @@ K
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf
 $ENDCMP
 #
+$CMP SML-D12L8WT86
+D Red 635nm LED Indication - Discrete 2V 0603 (1608 Metric), 20mA , 500mW , -40C ~ +85C
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12l8wt86-e.pdf
+$ENDCMP
+#
+$CMP SMLD12EN1WT86C
+D Green 527nm LED Indication - Discrete 3V 0603 (1608 Metric) 
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smld12en1wt86(c)-e.pdf
+$ENDCMP
+#
+$CMP SML-D12Y1WT86
+D LED Yellow 100mcd SMT 1608(0603)
+K
+F https://componentsearchengine.com/Datasheets/1/SML-D12Y1WT86.pdf
+$ENDCMP
+#
 #End Doc Library

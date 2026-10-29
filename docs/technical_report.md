@@ -157,8 +157,8 @@
 
         -Start up reset
         When turned on the latch could start in a random state, and the sensors filters need a few milliseconds to settle.
-        With a 1uF capatitor and a 100k resistor, followed by a smith inverter, keeps ready low for about 117ms after power up(when the 1.54V_T- is crossed), holding latch in OK state.
-         
+        With a 1uF capatitor and a 100k resistor, followed by a smith inverter, keeps ready low for about 117ms after power up(when the 1.54V_T- is crossed), holding latch in OK state. 
+
         -Simulation
          All the pictures of the simulation are in the [sim/logic](../sim/logic/) folder.
 

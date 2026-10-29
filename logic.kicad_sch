@@ -2186,7 +2186,7 @@
 		)
 		(uuid "69ba2a7a-e33b-449e-8912-625b71d2dbc3")
 	)
-	(text "TURN-ON RESET\nFORMULA:\n  t = τ * ln(V_CC / V_T−),  τ = R * C\nDATA:\n  V_CC = 4.94 V, V_T− = 1.54 V (74HC14)\n  t = 100 ms ( 10 times the settling time), R = 100 kΩ\nRESOLUTION:\n  t = τ * ln(4.94 / 1.54) = 1.17 × τ\n  τ = 0.1 s / 1.17 = 0.086 s\n  C = τ / R = 0.086 s / 100 kΩ = 0.86 uF -> 1uF\n"
+	(text "START UP RESET\nFORMULA:\n  t = τ * ln(V_CC / V_T−),  τ = R * C\nDATA:\n  V_CC = 4.94 V, V_T− = 1.54 V (74HC14)\n  t = 100 ms ( 10 times the settling time), R = 100 kΩ\nRESOLUTION:\n  t = τ * ln(4.94 / 1.54) = 1.17 × τ\n  τ = 0.1 s / 1.17 = 0.086 s\n  C = τ / R = 0.086 s / 100 kΩ = 0.86 uF -> 1uF\n"
 		(exclude_from_sim no)
 		(at 18.542 179.07 0)
 		(effects

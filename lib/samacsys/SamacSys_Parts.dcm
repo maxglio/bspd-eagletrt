@@ -126,4 +126,16 @@ K
 F https://componentsearchengine.com/Datasheets/1/SML-D12Y1WT86.pdf
 $ENDCMP
 #
+$CMP TX2SS-5V-X
+D 2,000 Vrms dielectric strength, 2 Form C and 2 A relays
+K
+F https://industry.panasonic.com/ac/cdn/e/control/relay/signal/catalog/mech_eng_tx.pdf
+$ENDCMP
+#
+$CMP 2N7002BK,215
+D SMALL SIGNAL FIELD-EFFECT TRANSI
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/PHGL/PHGLS22028/PHGLS22028-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
 #End Doc Library

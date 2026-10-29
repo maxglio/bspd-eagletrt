@@ -102,4 +102,10 @@ K
 F https://assets.nexperia.com/documents/data-sheet/PMEG6020ER.pdf
 $ENDCMP
 #
+$CMP 74HC1G00GV,125
+D 74HC(T)1G00 - 2-input NAND gate@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf
+$ENDCMP
+#
 #End Doc Library

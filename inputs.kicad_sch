@@ -582,7 +582,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 181.61 68.58)
+			(xy 123.19 68.58) (xy 181.61 68.58)
 		)
 		(stroke
 			(width 0)
@@ -625,7 +625,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 124.46 68.58 180)
+		(at 123.19 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)

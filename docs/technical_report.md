@@ -156,6 +156,8 @@
         Choosing a 1uF capacitor, and τ = R*C we got R = 650k.
         -Calculation
         -Simulation
+
+        
     2.5 Output
     2.6 Connectors
         All the external connections use connectors from the same family(Molex Micro-Fit 3.0). The 2 main features are the locking latch, which keep the cable connetced also under the vehicle vibrations, and a polarized housing, to prevent the connector to be inserted the wrong way. 

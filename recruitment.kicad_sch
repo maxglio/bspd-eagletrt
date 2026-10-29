@@ -932,16 +932,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 121.92) (xy 237.49 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d50f0a51-7fa0-4ce8-b35d-3a1756d21ecd")
-	)
-	(wire
-		(pts
 			(xy 99.06 45.72) (xy 213.36 45.72)
 		)
 		(stroke
@@ -949,16 +939,6 @@
 			(type default)
 		)
 		(uuid "d5344a0e-c2e9-4e28-b16a-8b69a7d8b2b1")
-	)
-	(wire
-		(pts
-			(xy 228.6 124.46) (xy 237.49 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da6c6477-4c2b-4a10-af1d-6375c5fe8916")
 	)
 	(wire
 		(pts
@@ -1462,7 +1442,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys:43650-0201")
-		(at 237.49 121.92 0)
+		(at 228.6 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1473,7 +1453,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b423074-4ec0-42a8-b215-30bce874541e")
 		(property "Reference" "J4"
-			(at 254 121.9199 0)
+			(at 245.11 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1484,7 +1464,7 @@
 			)
 		)
 		(property "Value" "43650-0201"
-			(at 254 124.4599 0)
+			(at 245.11 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1495,7 +1475,7 @@
 			)
 		)
 		(property "Footprint" "43650-02(00,01,02)"
-			(at 254 216.84 0)
+			(at 245.11 216.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1507,7 +1487,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
-			(at 254 316.84 0)
+			(at 245.11 316.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1519,7 +1499,7 @@
 			)
 		)
 		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
-			(at 237.49 121.92 0)
+			(at 228.6 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1530,7 +1510,7 @@
 			)
 		)
 		(property "Height" "5.57"
-			(at 254 516.84 0)
+			(at 245.11 516.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1542,7 +1522,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-43650-0201"
-			(at 254 616.84 0)
+			(at 245.11 616.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1554,7 +1534,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0201?qs=HlEFOAM0q6XDqOKWr68Eiw%3D%3D"
-			(at 254 716.84 0)
+			(at 245.11 716.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1566,7 +1546,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 254 816.84 0)
+			(at 245.11 816.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1578,7 +1558,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "43650-0201"
-			(at 254 916.84 0)
+			(at 245.11 916.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,85 +1721,6 @@
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 121.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50e8786a-fd7d-4d87-a50a-b1f344be210a")
-		(property "Reference" "#PWR04"
-			(at 227.33 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 121.9199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76b2d20e-7b88-4b8a-b17b-df390cd55bc3")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2345,9 +2246,19 @@
 				(justify right)
 			)
 		)
-		(pin "SDC" output
+		(pin "SDC_IN" output
 			(at 228.6 124.46 0)
-			(uuid "a1b64012-c38f-4410-af3d-e5374aee4243")
+			(uuid "503d2837-dec2-4a5a-9a54-9ddf346adafd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDC_OUT" output
+			(at 228.6 121.92 0)
+			(uuid "cd7a3ea5-102f-4bee-8cc6-de7db26db7fc")
 			(effects
 				(font
 					(size 1.27 1.27)

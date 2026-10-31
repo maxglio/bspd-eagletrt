@@ -31,7 +31,8 @@
 
 2. DESCRIPTION OF THE BLOCKS
     2.1 Power
-        -Requirements: The power supply block is asked to take an unstable voltage between 9V and 17V and regulate it into a 5V to power the device.
+        -Requirements: The power block must take an unstable input voltage between 9 V and 17 V and regulate it to
+        5 V to supply the whole board.
 
         -Block Overview: [connector] -> [protections] -> [buck] -> [5V traces] -> [device's components].
 
@@ -164,6 +165,29 @@
 
         
     2.5 Output
+        -Requirements
+        The output block must open the shutdown circuit(SDC) when the logic block signals a fault, and when everything works fine it needs to stay open. The relay contactcs switchs only the low-voltage SDC, with a maximum voltage of 24V and 1 A. The whole BSPD is projected with a fail-safe structure, meaning that if something goes wrong the SDC shuts down.
+
+        - Block overview
+        [RELAY_EN] -> [gate resistor] -> [MOSFET] -> [relay coil] -> [relay contacts] -> [SDC (J4)]
+                                        [+5V_RELAY] -^ 
+
+        -Relay
+        The chosen relay is the Panasonic TX2SS-5V-X, which has a 5V coil that draws 28mA.
+        Its contacts can switch at 2A 30V DC, twice what required (1A 24V DC), leaving margin for the arc when the contacts open.
+        The N.O. contacts are used, so the SDC is closed only while the coil is energized, and any fault that removes the coil current opens it.
+        The two contacts are connected in series, so if one of them welds the other still opens the SDC. The N.C. contacts are left unconnected.
+
+        -Coil driver
+        The coil is powered by +5V_RELAY, the filtered branch of the 5V rail, with a 10uF and 100nF capacitors next to the realy, in order to supply it when the coil turns on.
+        The coil is attached to ground throgh a experia 2N7002BK MOSFET. With a 4,94V on the gate is fully above the 2.1V threshold.
+        R28 is used to limit the current when the coil charged, and R29 is used as pull down, to keep the mosfet off if RELAY_IN is low.
+        A BAS316 diode is placed across the coil, to absorb the voltage spike when the coil turns off, keeping the groudn line below 5.7V.
+
+        -Status LED
+        A greeen LED, with its resistor to limit the current, is driven by RELAY_EN to show when the relay is on.
+                                    
+
     2.6 Connectors
         All the external connections use connectors from the same family(Molex Micro-Fit 3.0). The 2 main features are the locking latch, which keep the cable connetced also under the vehicle vibrations, and a polarized housing, to prevent the connector to be inserted the wrong way. 
         The 2 pin version(43650-0201) is used for the power input and the 3 pin version(43650-0301) for the sensors. Since some connectors are identical, each cable must be labelled and colour-coded to avoid plugging it into the wrong connector.

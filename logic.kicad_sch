@@ -2784,7 +2784,7 @@
 		)
 		(uuid "5e196975-3c43-412b-a7ba-d22b37331be5")
 	)
-	(hierarchical_label "BSPD_OK"
+	(hierarchical_label "RELAY_EN"
 		(shape output)
 		(at 250.19 119.38 0)
 		(effects

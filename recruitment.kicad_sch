@@ -2160,7 +2160,7 @@
 				(justify left)
 			)
 		)
-		(pin "BSPD_OK" output
+		(pin "RELAY_EN" output
 			(at 184.15 127 0)
 			(uuid "a944837a-e97c-4547-b2fa-3910a8ba0fb4")
 			(effects
@@ -2226,7 +2226,7 @@
 				(justify left top)
 			)
 		)
-		(pin "BSPD_OK" input
+		(pin "RELAY_EN" input
 			(at 198.12 127 180)
 			(uuid "0e753919-3195-43dc-9a81-c3f10d4ad03d")
 			(effects

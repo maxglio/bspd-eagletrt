@@ -2337,10 +2337,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "016a91f2-0b2a-4514-9aaa-ccbf22bcb108")
 		(property "Reference" "C11"
-			(at 154.94 60.96 90)
+			(at 154.94 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2349,8 +2348,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 154.94 63.5 90)
+		(property "Value" "100n"
+			(at 154.94 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2499,7 +2498,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "059a9e1e-999e-4033-b432-8ea4e05ceddc")
 		(property "Reference" "#PWR035"
 			(at 151.13 88.9 0)
@@ -2513,7 +2511,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 80.01 0)
+			(at 147.066 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2908,7 +2906,7 @@
 				)
 			)
 		)
-		(property "Value" "52,3k"
+		(property "Value" "49.9"
 			(at 63.5 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3724,7 @@
 				)
 			)
 		)
-		(property "Value" "47,5k"
+		(property "Value" "44,2k"
 			(at 50.8 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,7 +5245,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8a1a486-ba02-479b-8a88-85ccfab75110")
 		(property "Reference" "#PWR034"
 			(at 151.13 64.77 0)
@@ -5261,7 +5258,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 73.66 0)
+			(at 148.082 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -5,6 +5,684 @@
 	(uuid "e091a887-be84-4a9d-b195-3ded29602f75")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74AHC1G08GW-Q100,1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC4"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1G08GW-Q100,1"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT65P212X110-5N"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08_Q100.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "NXP - 74AHC1G08GW-Q100,1 - LOGIC, AND GATE, SINGLE, 2 I/P, TSSOP-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "771-74AHC1G08GW-Q100"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC1G08GW-Q1001?qs=1sbE9T7hb3aWB8Q0TmQQJw%3D%3D"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74AHC1G08GW-Q100,1"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "74AHC1G08GW-Q100,1_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -12.7 90)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74AHC1G08GW-Q100,1_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC4"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1G08GW-Q100,1"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT65P212X110-5N"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08_Q100.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "NXP - 74AHC1G08GW-Q100,1 - LOGIC, AND GATE, SINGLE, 2 I/P, TSSOP-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "771-74AHC1G08GW-Q100"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC1G08GW-Q1001?qs=1sbE9T7hb3aWB8Q0TmQQJw%3D%3D"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74AHC1G08GW-Q100,1"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "74AHC1G08GW-Q100,1_2_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -12.7 90)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74HC1G00GV,125_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC8"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC1G00GV,125"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT95P275X110-5N"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "74HC(T)1G00 - 2-input NAND gate@en-us"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "771-74HC1G00GV"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G00GV125?qs=P62ublwmbi8Y4ffuWffzNg%3D%3D"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74HC1G00GV,125"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "74HC1G00GV,125_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -12.7 90)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -536,232 +1214,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys:74AHC1G08GW-Q100,1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC4"
-				(at 12.7 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74AHC1G08GW-Q100,1"
-				(at 12.7 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT65P212X110-5N"
-				(at 21.59 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08_Q100.pdf"
-				(at 21.59 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "NXP - 74AHC1G08GW-Q100,1 - LOGIC, AND GATE, SINGLE, 2 I/P, TSSOP-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.1"
-				(at 21.59 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "771-74AHC1G08GW-Q100"
-				(at 21.59 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC1G08GW-Q1001?qs=1sbE9T7hb3aWB8Q0TmQQJw%3D%3D"
-				(at 21.59 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 21.59 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "74AHC1G08GW-Q100,1"
-				(at 21.59 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "74AHC1G08GW-Q100,1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -1.27 0)
-					(length 5.08)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 0)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -12.7 90)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys:74HC14PW-Q100,118"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1004,7 +1456,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -22.86 90)
+					(at 16.51 -22.86 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1130,7 +1582,7 @@
 					)
 				)
 				(pin passive line
-					(at 11.43 -22.86 90)
+					(at 8.89 -22.86 90)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -1140,232 +1592,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys:74HC1G00GV,125"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC7"
-				(at 12.7 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74HC1G00GV,125"
-				(at 12.7 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P275X110-5N"
-				(at 21.59 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf"
-				(at 21.59 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "74HC(T)1G00 - 2-input NAND gate@en-us"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.1"
-				(at 21.59 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "771-74HC1G00GV"
-				(at 21.59 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G00GV125?qs=P62ublwmbi8Y4ffuWffzNg%3D%3D"
-				(at 21.59 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 21.59 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "74HC1G00GV,125"
-				(at 21.59 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "74HC1G00GV,125_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -1.27 0)
-					(length 5.08)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 0)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -12.7 90)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2218,10 +2444,46 @@
 		(uuid "cda5a6db-a485-44af-af0b-18ab9d2d4f2e")
 	)
 	(junction
+		(at 242.57 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fbee529-76a9-4da0-92cb-1ca49ce4572a")
+	)
+	(junction
+		(at 49.53 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b1f7b6-e5c5-44ec-9d53-08ddbb29d37d")
+	)
+	(junction
+		(at 250.19 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e780ce8-994b-4108-a394-a2e3219e54d1")
+	)
+	(junction
 		(at 95.25 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "419f6eba-464d-41bd-b14b-425b2818f6ca")
+	)
+	(junction
+		(at 118.11 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4535d919-c671-4b72-870b-1cedd946e8c8")
+	)
+	(junction
+		(at 212.09 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "465f453e-5731-4d6a-8c67-772e7882c121")
+	)
+	(junction
+		(at 57.15 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff435cd-adfc-4c80-9a63-6b32eab8b5e7")
 	)
 	(junction
 		(at 34.29 87.63)
@@ -2230,10 +2492,10 @@
 		(uuid "59ffb896-038e-4268-b8e8-11971daf3e0b")
 	)
 	(junction
-		(at 215.9 91.44)
+		(at 220.98 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a446b42-31d2-4f0a-827c-dd9e4db6826c")
+		(uuid "5d126d87-dfc5-4dc6-8fd9-54a7c6a4ac90")
 	)
 	(junction
 		(at 38.1 95.25)
@@ -2248,22 +2510,64 @@
 		(uuid "7aa8f069-7adb-4963-9292-1dd0297e25c1")
 	)
 	(junction
+		(at 195.58 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8333eaf7-b578-49d1-9ea6-95000a203729")
+	)
+	(junction
+		(at 199.39 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a069fa5-d461-4bd5-8365-ad0d0d599e36")
+	)
+	(junction
+		(at 170.18 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975c694c-cea7-4355-a01e-beba4af56b25")
+	)
+	(junction
 		(at 85.09 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b068943-5d8e-4f0d-84be-7d9d32731346")
 	)
 	(junction
-		(at 220.98 119.38)
+		(at 207.01 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5510196-f6d0-4063-8572-8306b56a7b83")
+		(uuid "aaecee69-55c4-4ce7-b33b-cb4fdc20a149")
+	)
+	(junction
+		(at 125.73 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bde90f38-f28c-4e74-9534-71da8f1d62a7")
+	)
+	(junction
+		(at 162.56 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc594de-9c69-4f1f-a236-73b87d5b1fce")
+	)
+	(junction
+		(at 204.47 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0aad9eb-c081-4a99-aadc-079aedca70e6")
 	)
 	(junction
 		(at 71.12 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d25532d6-e27c-4a60-8bf0-da29a5a4cc58")
+	)
+	(junction
+		(at 215.9 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5bcb472-0d37-4006-9f3a-71197c8e6143")
 	)
 	(no_connect
 		(at 134.62 127)
@@ -2341,7 +2645,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1932ece6-ad4a-490e-a13d-878365fe7511")
+		(uuid "15ca93ca-8f5b-407c-8b7d-595b4ae13a8e")
 	)
 	(wire
 		(pts
@@ -2352,6 +2656,26 @@
 			(type default)
 		)
 		(uuid "1bd32dfc-8222-41e8-8bd3-cfb9387b7d73")
+	)
+	(wire
+		(pts
+			(xy 195.58 137.16) (xy 233.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f69c313-bfcf-4477-88e0-b7cb13a56035")
+	)
+	(wire
+		(pts
+			(xy 228.6 119.38) (xy 220.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211ccc94-2938-4dcd-aa97-958ddff14b8c")
 	)
 	(wire
 		(pts
@@ -2392,6 +2716,26 @@
 			(type default)
 		)
 		(uuid "34a55d31-232c-4111-8f0d-88c3dd7bc64b")
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87) (xy 195.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6dd604-4276-4fad-b57f-9c9d010b1996")
+	)
+	(wire
+		(pts
+			(xy 259.08 135.89) (xy 262.89 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4283fb67-0f2c-4971-ba9f-3685d4a03e60")
 	)
 	(wire
 		(pts
@@ -2472,16 +2816,6 @@
 			(type default)
 		)
 		(uuid "6edeb10f-93e9-43d3-9d74-04790a736dfd")
-	)
-	(wire
-		(pts
-			(xy 195.58 102.87) (xy 195.58 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd0dfff-0664-46bf-96e1-6591c850c726")
 	)
 	(wire
 		(pts
@@ -2585,6 +2919,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 134.62) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45426eb-f8ab-4220-86da-cc1f2661ebe9")
+	)
+	(wire
+		(pts
 			(xy 71.12 81.28) (xy 71.12 91.44)
 		)
 		(stroke
@@ -2592,16 +2936,6 @@
 			(type default)
 		)
 		(uuid "ac8dae6d-b06b-4454-817e-862a2128240a")
-	)
-	(wire
-		(pts
-			(xy 215.9 119.38) (xy 250.19 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e29aa9-ad4f-42a2-a6ce-0f63ef06e8e4")
 	)
 	(wire
 		(pts
@@ -2642,6 +2976,16 @@
 			(type default)
 		)
 		(uuid "bf7e845f-630e-4a8f-bb8a-3a6b5d072d62")
+	)
+	(wire
+		(pts
+			(xy 195.58 129.54) (xy 195.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c109f243-72e7-431f-992b-e797b2cfb7d9")
 	)
 	(wire
 		(pts
@@ -2773,6 +3117,16 @@
 		)
 		(uuid "fad02a8d-fe02-4927-8e8c-51ec180d34f8")
 	)
+	(wire
+		(pts
+			(xy 233.68 134.62) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcd7248-3fb4-4d7d-8c8b-5908b58434c5")
+	)
 	(hierarchical_label "SENSOR_OK"
 		(shape input)
 		(at 29.21 64.77 180)
@@ -2786,7 +3140,7 @@
 	)
 	(hierarchical_label "RELAY_EN"
 		(shape output)
-		(at 250.19 119.38 0)
+		(at 262.89 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,6 +3170,235 @@
 			(justify right)
 		)
 		(uuid "d4e52c02-37f2-442b-852d-386fc7ada1e2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "088c2d51-0df9-4237-92f7-21f8a1401cee")
+		(property "Reference" "#PWR033"
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1a36406-2350-48d0-82e3-6dd85bd969ba")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74AHC1G08GW-Q100,1_2")
+		(lib_id "SamacSys:74AHC1G08GW-Q100,1")
+		(at 233.68 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a03fdce-bd67-4180-87c0-e781febc61b3")
+		(property "Reference" "IC9"
+			(at 246.38 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G08GW-Q100,1"
+			(at 246.38 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P212X110-5N"
+			(at 255.27 228.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08_Q100.pdf"
+			(at 255.27 328.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "NXP - 74AHC1G08GW-Q100,1 - LOGIC, AND GATE, SINGLE, 2 I/P, TSSOP-5"
+			(at 233.68 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 255.27 528.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-74AHC1G08GW-Q100"
+			(at 255.27 628.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC1G08GW-Q1001?qs=1sbE9T7hb3aWB8Q0TmQQJw%3D%3D"
+			(at 255.27 728.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 255.27 828.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74AHC1G08GW-Q100,1"
+			(at 255.27 928.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "fcb67c29-0fe9-41a0-8f34-871bb8161954")
+		)
+		(pin "4"
+			(uuid "7fa03eb3-ebeb-418b-a124-5fcb89f98f73")
+		)
+		(pin "1"
+			(uuid "a6d9b52e-5981-4ab0-af97-6386f0f977db")
+		)
+		(pin "2"
+			(uuid "3b5984c0-9d64-4983-8ea2-7b23b4dd529a")
+		)
+		(pin "5"
+			(uuid "d0ab7cc2-d0f6-4b57-b5e8-8e58741eae44")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "IC9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SamacSys:SML-D12L8WT86")
@@ -2960,6 +3543,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 166.37 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ead85ad-3b56-44d9-ad21-150c8e02fab0")
+		(property "Reference" "C21"
+			(at 167.64 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n 50V X7R"
+			(at 167.64 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 170.18 99.3648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7cd2c0fb-b44e-4813-95a6-9c62ed4a9bc6")
+		)
+		(pin "1"
+			(uuid "2f5f4202-1767-4032-86cc-95e138ab9f05")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 124.46 270)
 		(unit 1)
@@ -3033,6 +3695,261 @@
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:74HC14PW-Q100,118")
+		(at 109.22 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12e6f4f2-646f-419a-94c6-aee1818a5fb4")
+		(property "Reference" "IC5"
+			(at 121.92 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14PW-Q100,118"
+			(at 121.92 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP65P640X110-14N"
+			(at 130.81 211.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14_Q100.pdf"
+			(at 130.81 311.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "74HC(T)14-Q100 - Hex inverting Schmitt trigger@en-us"
+			(at 111.76 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 130.81 511.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC14PW-Q100118"
+			(at 130.81 611.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC14PW-Q100118?qs=1sbE9T7hb3Z%2FZ3TDuk1lTg%3D%3D"
+			(at 130.81 711.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 130.81 811.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC14PW-Q100,118"
+			(at 130.81 911.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "bc3b9007-e863-4600-97a0-92a6de0f501a")
+		)
+		(pin "7"
+			(uuid "f19291ce-4b20-429e-a111-868e18432124")
+		)
+		(pin "9"
+			(uuid "8aa04e2b-35f9-4bca-bee7-2406877f84c5")
+		)
+		(pin "13"
+			(uuid "434d6384-e46f-4591-82cc-008b2fa42097")
+		)
+		(pin "6"
+			(uuid "efc7d5fd-13bb-494c-92a3-9cd318fe317d")
+		)
+		(pin "14"
+			(uuid "d9bce97b-6817-4bd2-af97-569b751a2004")
+		)
+		(pin "3"
+			(uuid "bb8d0640-211a-4d61-854c-f5c966c2b847")
+		)
+		(pin "2"
+			(uuid "23d349cf-25c0-4491-983b-b855c4fdfbbd")
+		)
+		(pin "1"
+			(uuid "baf4434e-b314-404b-8d35-e64065511850")
+		)
+		(pin "4"
+			(uuid "a9cc71be-20ab-4f44-94dd-b5b0f544364f")
+		)
+		(pin "12"
+			(uuid "4ec3a3e4-6091-4d60-8133-80f5bca97b77")
+		)
+		(pin "11"
+			(uuid "a87aebe9-bcf4-424b-9064-d62dbd718afe")
+		)
+		(pin "5"
+			(uuid "6a769065-8987-49fe-aab4-27b2c2df0bb0")
+		)
+		(pin "10"
+			(uuid "dfeacec1-dbfc-4f0d-824a-7bf1f376fb09")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 212.09 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ad2d3dd-34e0-47cf-aa21-0a21b9b8129f")
+		(property "Reference" "#PWR047"
+			(at 212.09 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 212.09 133.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 212.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d65bb4cd-ae68-4a55-8cea-abed35bc3839")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3119,7 +4036,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 139.7 0)
+		(at 125.73 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3130,7 +4047,7 @@
 		(fields_autoplaced yes)
 		(uuid "211b5cd0-9846-4ff0-816d-aaaba8c936dd")
 		(property "Reference" "#PWR029"
-			(at 124.46 146.05 0)
+			(at 125.73 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3141,7 +4058,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 144.78 0)
+			(at 125.73 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3151,7 +4068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 139.7 0)
+			(at 125.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +4079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 139.7 0)
+			(at 125.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +4090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 139.7 0)
+			(at 125.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,6 +4191,159 @@
 		)
 	)
 	(symbol
+		(lib_name "74HC1G00GV,125_1")
+		(lib_id "SamacSys:74HC1G00GV,125")
+		(at 190.5 93.98 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35f7eca9-319c-43b0-b494-42a3fed65faa")
+		(property "Reference" "IC10"
+			(at 203.2 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC1G00GV-Q100"
+			(at 203.2 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P275X110-5N"
+			(at 212.09 -0.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf"
+			(at 212.09 -100.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "74HC(T)1G00 - 2-input NAND gate@en-us"
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 212.09 -300.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC1G00GV"
+			(at 212.09 -400.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G00GV125?qs=P62ublwmbi8Y4ffuWffzNg%3D%3D"
+			(at 212.09 -500.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 212.09 -600.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC1G00GV,125"
+			(at 212.09 -700.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "2d05ff55-4809-4793-aacf-4993014709ee")
+		)
+		(pin "3"
+			(uuid "88c7c59d-a6e1-482c-8809-a254ed369a5f")
+		)
+		(pin "4"
+			(uuid "d31fe331-3063-4f53-afce-37ec9ce8f46c")
+		)
+		(pin "1"
+			(uuid "5804c458-5673-4679-b1a6-9155f0d2937c")
+		)
+		(pin "2"
+			(uuid "bcc4fff1-5114-42ea-b46f-280918e5359c")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "IC10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 80.01 91.44 90)
 		(unit 1)
@@ -3347,84 +4417,6 @@
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 50.8 101.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d2ca428-99f3-4bb6-9978-e6af4bb058e9")
-		(property "Reference" "#PWR030"
-			(at 50.8 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.8 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38eb5cdb-f733-4649-84af-a82c43a7a343")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3592,6 +4584,158 @@
 		)
 	)
 	(symbol
+		(lib_name "74HC1G00GV,125_1")
+		(lib_id "SamacSys:74HC1G00GV,125")
+		(at 195.58 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b2e0912-df50-4044-919a-5f7056bc1c2d")
+		(property "Reference" "IC8"
+			(at 208.28 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC1G00GV-Q100"
+			(at 208.28 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P275X110-5N"
+			(at 217.17 211.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf"
+			(at 217.17 311.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "74HC(T)1G00 - 2-input NAND gate@en-us"
+			(at 195.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 217.17 511.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC1G00GV"
+			(at 217.17 611.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G00GV125?qs=P62ublwmbi8Y4ffuWffzNg%3D%3D"
+			(at 217.17 711.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 217.17 811.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC1G00GV,125"
+			(at 217.17 911.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "9c80bbad-ebf2-40c2-9cfd-916b98e8f870")
+		)
+		(pin "3"
+			(uuid "c6265aa6-6dd5-4197-bfa4-fddd540f40fb")
+		)
+		(pin "4"
+			(uuid "306f69a0-ba70-4e43-ad96-8bee40e41d92")
+		)
+		(pin "1"
+			(uuid "6717a69f-3bbf-4102-8cd4-b41e67443efe")
+		)
+		(pin "2"
+			(uuid "435909f1-8095-412d-9e4f-76252b2cec27")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 229.87 91.44 90)
 		(unit 1)
@@ -3751,6 +4895,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52669eec-34bd-44a2-9a9a-e53c4909edcf")
+		(property "Reference" "#PWR030"
+			(at 49.53 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "778392df-d814-4fcc-9036-35b4a2119d45")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAS316")
 		(at 95.25 153.67 270)
 		(unit 1)
@@ -3877,7 +5099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u COG 25V"
 			(at 88.9 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3937,8 +5159,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 81.28 180)
+		(lib_id "power:+5V")
+		(at 242.57 146.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3947,9 +5169,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60f9374a-7c01-49c6-a4d5-cff91c987276")
-		(property "Reference" "#PWR048"
-			(at 200.66 74.93 0)
+		(uuid "5efa1426-ab28-4817-b021-c010ca0996a8")
+		(property "Reference" "#PWR069"
+			(at 242.57 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,8 +5181,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 200.66 76.2 0)
+		(property "Value" "+5V"
+			(at 242.57 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3970,7 +5192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 81.28 0)
+			(at 242.57 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +5203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 81.28 0)
+			(at 242.57 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,8 +5213,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 242.57 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,12 +5225,164 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e280147-2e2b-4e63-90c8-bf837eaa64f3")
+			(uuid "361b7050-5d9e-4c44-8e72-4ca84a3cde0a")
 		)
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR048")
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74AHC1G08GW-Q100,1_1")
+		(lib_id "SamacSys:74AHC1G08GW-Q100,1")
+		(at 40.64 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6226163b-99cb-48fd-b372-726ff1abb875")
+		(property "Reference" "IC4"
+			(at 53.34 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G08GW-Q100,1"
+			(at 53.34 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P212X110-5N"
+			(at 62.23 183.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08_Q100.pdf"
+			(at 62.23 283.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "NXP - 74AHC1G08GW-Q100,1 - LOGIC, AND GATE, SINGLE, 2 I/P, TSSOP-5"
+			(at 40.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 62.23 483.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-74AHC1G08GW-Q100"
+			(at 62.23 583.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC1G08GW-Q1001?qs=1sbE9T7hb3aWB8Q0TmQQJw%3D%3D"
+			(at 62.23 683.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 62.23 783.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74AHC1G08GW-Q100,1"
+			(at 62.23 883.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "c630409a-c0c1-43da-9f06-15586cbe34c5")
+		)
+		(pin "4"
+			(uuid "4da880f8-7ce4-4632-b26e-82e4a992a7b4")
+		)
+		(pin "1"
+			(uuid "f208a3d5-afeb-42bb-9020-2278578a3e35")
+		)
+		(pin "2"
+			(uuid "e7e4aa0b-d2b9-42b6-a487-668201300ee5")
+		)
+		(pin "5"
+			(uuid "71104a84-4575-481a-84ae-c6055b36b175")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -4037,7 +5411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u 25V X7R"
 			(at 86.36 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4278,7 +5652,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 120.65 139.7 180)
+		(at 118.11 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4289,7 +5663,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fd58a0d-6490-45ec-8055-7684d8406378")
 		(property "Reference" "#PWR031"
-			(at 120.65 135.89 0)
+			(at 118.11 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +5674,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 120.65 144.78 0)
+			(at 118.11 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4310,7 +5684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 139.7 0)
+			(at 118.11 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +5695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 139.7 0)
+			(at 118.11 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +5706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 139.7 0)
+			(at 118.11 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4655,236 +6029,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys:74HC1G00GV,125")
-		(at 195.58 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8de1be46-e7e1-4327-a3cb-a11bdfdd6f4a")
-		(property "Reference" "IC8"
-			(at 208.28 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC1G00GV,125"
-			(at 208.28 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P275X110-5N"
-			(at 217.17 211.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf"
-			(at 217.17 311.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "74HC(T)1G00 - 2-input NAND gate@en-us"
-			(at 195.58 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 217.17 511.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "771-74HC1G00GV"
-			(at 217.17 611.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G00GV125?qs=P62ublwmbi8Y4ffuWffzNg%3D%3D"
-			(at 217.17 711.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 217.17 811.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74HC1G00GV,125"
-			(at 217.17 911.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5"
-			(uuid "c6f99f85-f8aa-4e38-bc10-0250b40fed15")
-		)
-		(pin "3"
-			(uuid "e5ff84d3-7761-4fa3-9376-77d63238307e")
-		)
-		(pin "4"
-			(uuid "accfd426-748c-442e-84b2-6c17a1745abd")
-		)
-		(pin "1"
-			(uuid "ca203683-ef34-426c-83bb-aa7f803ed4bc")
-		)
-		(pin "2"
-			(uuid "43cbcf83-9b85-48d2-bf41-db85246b351f")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "IC8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 129.54 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9503c137-b5eb-43a0-93f1-15fbcfeeef90")
-		(property "Reference" "#PWR047"
-			(at 210.82 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 210.82 133.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8259fa20-3447-48ff-9ac4-d989fb8ff532")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 82.55 161.29 0)
+		(at 57.15 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4893,9 +6039,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9616d0ac-1734-4a0e-878e-ab966ab5d8dd")
-		(property "Reference" "#PWR051"
-			(at 82.55 167.64 0)
+		(uuid "8de144b9-f505-4a88-833e-81e5ea77e252")
+		(property "Reference" "#PWR023"
+			(at 57.15 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +6052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 166.37 0)
+			(at 57.15 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4916,7 +6062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 161.29 0)
+			(at 57.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +6073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 161.29 0)
+			(at 57.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +6084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 161.29 0)
+			(at 57.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4949,403 +6095,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "359da8c6-9382-41fb-affb-baf0decf30b5")
+			(uuid "02faed66-1065-4fd2-9573-a0acab27c2ba")
 		)
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR051")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9914578b-10eb-4fc3-b55e-3d8dedecd05a")
-		(property "Reference" "#PWR033"
-			(at 167.64 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4835a90-60bf-4f0f-bf6f-34040865d307")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 205.74 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2befa55-027f-475c-afa7-011699a4bd75")
-		(property "Reference" "#PWR04"
-			(at 205.74 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 205.74 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 205.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "227562b3-9bec-4e71-9b86-ec63b23163c5")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 205.74 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a80eaac4-a565-42dc-be42-c573c109271a")
-		(property "Reference" "#PWR049"
-			(at 205.74 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a6762a8-45ad-44d7-af6b-838c8e793eb0")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys:74HC1G00GV,125")
-		(at 190.5 93.98 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c7754ae5-2d66-4f8d-b7b7-3bad5473cc26")
-		(property "Reference" "IC7"
-			(at 203.2 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC1G00GV,125"
-			(at 203.2 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P275X110-5N"
-			(at 212.09 -0.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G00.pdf"
-			(at 212.09 -100.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "74HC(T)1G00 - 2-input NAND gate@en-us"
-			(at 190.5 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 212.09 -300.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "771-74HC1G00GV"
-			(at 212.09 -400.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G00GV125?qs=P62ublwmbi8Y4ffuWffzNg%3D%3D"
-			(at 212.09 -500.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 212.09 -600.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74HC1G00GV,125"
-			(at 212.09 -700.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5"
-			(uuid "7af2eb67-e55b-42f3-9c6e-7a436de94ad1")
-		)
-		(pin "3"
-			(uuid "83abed1b-4e86-4b03-9a65-c5e3d1e9afbf")
-		)
-		(pin "4"
-			(uuid "67cc6619-968f-4210-86ca-697693dd751e")
-		)
-		(pin "1"
-			(uuid "4a3427a7-0d92-4790-a139-28b9c5c9a7e9")
-		)
-		(pin "2"
-			(uuid "e2a98b13-83e1-4724-b1fd-12f72a6902d6")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "IC7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "74AHC1G08GW-Q100,1_2")
 		(lib_id "SamacSys:74AHC1G08GW-Q100,1")
 		(at 153.67 87.63 0)
 		(unit 1)
@@ -5356,7 +6118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c8bf9eee-2de4-4f0c-9d2e-e41525951ff5")
+		(uuid "8fa669e1-acc8-40f7-bf97-5f782b99618a")
 		(property "Reference" "IC6"
 			(at 166.37 80.01 0)
 			(show_name no)
@@ -5473,19 +6235,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "cccc05f7-b6f4-4c5b-a95b-0bc0cd9eb994")
+			(uuid "35c8553a-3d4a-4a5c-b350-70fe2da08459")
 		)
 		(pin "4"
-			(uuid "2b9b2963-0575-4509-8b8e-0ae961be1780")
+			(uuid "d8b25b75-833a-49e5-a7b9-0f5390957f07")
 		)
 		(pin "1"
-			(uuid "20862170-f082-4a40-8379-c51648798463")
+			(uuid "6d53d9ca-22a1-4db8-bcac-a0141a94d5b4")
 		)
 		(pin "2"
-			(uuid "62ab88a8-976e-4946-94e1-f316b0514ac1")
+			(uuid "ff6e4939-8d80-4136-8845-e2777d5dab57")
 		)
 		(pin "5"
-			(uuid "674dc2f9-8d3b-4c95-a5e1-f600428b52b8")
+			(uuid "ae55aab0-28f4-4fe0-9089-6742205f9e62")
 		)
 		(instances
 			(project "recruitment"
@@ -5497,8 +6259,87 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys:74HC14PW-Q100,118")
-		(at 109.22 116.84 0)
+		(lib_id "Device:C")
+		(at 246.38 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9116e567-51a1-40f1-af21-0dd42796c021")
+		(property "Reference" "C17"
+			(at 246.38 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n 50V X7R"
+			(at 246.38 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 250.19 145.0848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ad8410c-435a-4acc-91d5-f7ce117d397f")
+		)
+		(pin "1"
+			(uuid "98e14261-cbb3-49d7-aa5f-7c8375cba529")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5507,53 +6348,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d251183e-201b-47a8-8d1d-5dbcc0f0a3f7")
-		(property "Reference" "IC5"
-			(at 121.92 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14PW-Q100,118"
-			(at 121.92 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP65P640X110-14N"
-			(at 130.81 211.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14_Q100.pdf"
-			(at 130.81 311.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "74HC(T)14-Q100 - Hex inverting Schmitt trigger@en-us"
-			(at 111.76 105.41 0)
+		(uuid "9616d0ac-1734-4a0e-878e-ab966ab5d8dd")
+		(property "Reference" "#PWR051"
+			(at 82.55 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5563,8 +6360,18 @@
 				)
 			)
 		)
-		(property "Height" "1.1"
-			(at 130.81 511.76 0)
+		(property "Value" "GND"
+			(at 82.55 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5572,11 +6379,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "771-74HC14PW-Q100118"
-			(at 130.81 611.76 0)
+		(property "Datasheet" ""
+			(at 82.55 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5584,11 +6390,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC14PW-Q100118?qs=1sbE9T7hb3Z%2FZ3TDuk1lTg%3D%3D"
-			(at 130.81 711.76 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,79 +6401,487 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 130.81 811.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74HC14PW-Q100,118"
-			(at 130.81 911.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "8"
-			(uuid "5e894295-fe0c-4b0f-90f8-dc63785dcae1")
-		)
-		(pin "7"
-			(uuid "acd96442-52bb-4e66-8f12-fb298b28f37f")
-		)
-		(pin "9"
-			(uuid "1dc8899e-09e2-4b0d-9011-d2dc911e93d9")
-		)
-		(pin "13"
-			(uuid "a27b0d2e-23de-428d-8700-590ca506eae3")
-		)
-		(pin "6"
-			(uuid "8a4bae1b-5aa7-4904-a987-611e29b3a99b")
-		)
-		(pin "14"
-			(uuid "493f4f87-c9fd-443b-9519-266bfba05b87")
-		)
-		(pin "3"
-			(uuid "3d6389eb-d9b4-4677-be20-d18bd9c5d8b0")
-		)
-		(pin "2"
-			(uuid "f77a89d2-f83c-45b6-8ffd-3af6cbdb616e")
 		)
 		(pin "1"
-			(uuid "182cd0f5-5cc2-4b88-88af-696cc2a7b1ac")
-		)
-		(pin "4"
-			(uuid "c8747a27-da2e-445d-8f3f-8ffda2d6c1f2")
-		)
-		(pin "12"
-			(uuid "b28227f3-5792-4770-98b7-cfcfae7b1bfe")
-		)
-		(pin "11"
-			(uuid "b768d4d5-40ff-4299-9c07-26ade007fa1b")
-		)
-		(pin "5"
-			(uuid "b87c89e5-4ce9-4488-9f2a-0e7e2298182c")
-		)
-		(pin "10"
-			(uuid "8c327b49-188a-45dc-9f20-17fa658a8bb7")
+			(uuid "359da8c6-9382-41fb-affb-baf0decf30b5")
 		)
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "IC5")
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9edeb07a-ba70-4cdd-8272-18786addefa9")
+		(property "Reference" "C20"
+			(at 121.92 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n 50V X7R"
+			(at 121.92 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 125.73 138.7348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b5a0f50-f9aa-4a74-b854-94936df88831")
+		)
+		(pin "1"
+			(uuid "6459cebf-1ff4-4921-8b8f-70e75bea28a5")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ef05825-fdce-4485-afac-1c9c99a4399d")
+		(property "Reference" "C18"
+			(at 208.28 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n 50V X7R"
+			(at 208.28 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 212.09 128.5748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d6939c35-2445-4389-ad87-5816e695ca1b")
+		)
+		(pin "1"
+			(uuid "27dde8e4-0bf1-4a38-b5bb-88299f4f830f")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6352672-d1c5-4450-95f1-bd3c6ce0e464")
+		(property "Reference" "#PWR032"
+			(at 162.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 158.75 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef2d2c2f-a54d-479f-8db9-7520bad97399")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 81.28 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce492f5c-ba49-4c98-9df4-fa4a0d1dea94")
+		(property "Reference" "#PWR071"
+			(at 199.39 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "407695cf-ff2f-42b9-87ac-40ae434c725d")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf1dff2f-8f35-4935-9d7b-811d3fc1d000")
+		(property "Reference" "C22"
+			(at 53.34 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n 50V X7R"
+			(at 53.34 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 57.15 100.6348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa48156d-96dc-42eb-be22-d271fc4eca94")
+		)
+		(pin "1"
+			(uuid "4178be80-0535-48f8-a042-7e1d2ece3390")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d029582b-b0f8-40ec-bb9a-3c7728613c52")
+		(property "Reference" "C19"
+			(at 203.2 70.866 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n 50V X7R"
+			(at 203.2 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 207.01 80.3148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d94e493d-cc33-40d8-98fa-a81c619edf06")
+		)
+		(pin "1"
+			(uuid "df6d65b6-6d34-45de-a27f-edfa3b93cb5c")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5897,8 +7110,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 163.83 100.33 180)
+		(lib_id "power:GND")
+		(at 204.47 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5907,9 +7120,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd97fc4c-87a1-4488-9206-7705879f8e73")
-		(property "Reference" "#PWR032"
-			(at 163.83 96.52 0)
+		(uuid "e3dab142-8924-4e3a-ab17-ac47478d5eec")
+		(property "Reference" "#PWR049"
+			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5919,8 +7132,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 163.83 105.41 0)
+		(property "Value" "GND"
+			(at 204.47 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5930,7 +7143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 100.33 0)
+			(at 204.47 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +7154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 100.33 0)
+			(at 204.47 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,8 +7164,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 163.83 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5963,12 +7176,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3534e35-5d6d-46eb-81f6-3187682fa08d")
+			(uuid "28f32f52-5693-4270-b180-0badf068b74f")
 		)
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR032")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 207.01 81.28 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edccf0cd-d557-459a-b191-7e7d8d777695")
+		(property "Reference" "#PWR048"
+			(at 207.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 207.01 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9936e2ae-fde9-4f69-b931-c7b4b71cc2a2")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef96f71f-b5cb-4042-ac5c-77bfaaf3e2c8")
+		(property "Reference" "#PWR070"
+			(at 250.19 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e436258-1aa4-45c6-aa9c-c5d22a62c2f6")
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6048,235 +7417,6 @@
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys:74AHC1G08GW-Q100,1")
-		(at 40.64 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5ecb315-5804-4dbc-8eb8-4bd0b2b6790f")
-		(property "Reference" "IC4"
-			(at 53.34 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHC1G08GW-Q100,1"
-			(at 53.34 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT65P212X110-5N"
-			(at 62.23 183.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08_Q100.pdf"
-			(at 62.23 283.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "NXP - 74AHC1G08GW-Q100,1 - LOGIC, AND GATE, SINGLE, 2 I/P, TSSOP-5"
-			(at 40.64 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 62.23 483.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "771-74AHC1G08GW-Q100"
-			(at 62.23 583.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC1G08GW-Q1001?qs=1sbE9T7hb3aWB8Q0TmQQJw%3D%3D"
-			(at 62.23 683.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 62.23 783.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74AHC1G08GW-Q100,1"
-			(at 62.23 883.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "48f73057-9180-4fd8-a404-7073d83e8370")
-		)
-		(pin "4"
-			(uuid "f693fd02-b413-475d-b00a-29fbb1fe171e")
-		)
-		(pin "1"
-			(uuid "0764870e-7b11-48ce-ad2c-e537ab02051b")
-		)
-		(pin "2"
-			(uuid "0850c600-843b-47f9-a15e-59b44da7fad1")
-		)
-		(pin "5"
-			(uuid "2b70d644-cfa2-45e0-8fdf-1e1d4af80bb5")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "IC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff749916-6c47-497c-bb2e-6bbdfc5ab4ee")
-		(property "Reference" "#PWR023"
-			(at 54.61 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0afb1af-8866-4cad-a663-ce14576f7309")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/c591dd32-1940-4bd4-8e70-f932e5d5683d"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)

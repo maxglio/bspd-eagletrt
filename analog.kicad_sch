@@ -2298,7 +2298,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 50V X7R"
 			(at 154.94 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,28 +2369,26 @@
 		(fields_autoplaced yes)
 		(uuid "03bd4aef-ffa0-4d91-a0b1-65c4e3ce3872")
 		(property "Reference" "R8"
-			(at 50.7999 38.1 0)
+			(at 52.07 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "66,5K"
-			(at 53.3399 38.1 0)
+		(property "Value" "66.5K"
+			(at 52.07 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.324 39.624 90)
 			(hide yes)
 			(show_name no)
@@ -2547,7 +2545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.834 75.184 90)
 			(hide yes)
 			(show_name no)
@@ -2627,7 +2625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.604 26.924 90)
 			(hide yes)
 			(show_name no)
@@ -2786,7 +2784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.924 16.764 90)
 			(hide yes)
 			(show_name no)
@@ -2866,7 +2864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.754 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -2936,7 +2934,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 50V X7R"
 			(at 154.94 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-14N"
+		(property "Footprint" "SamacSys:SOP65P640X120-14N"
 			(at 165.1 30.81 0)
 			(hide yes)
 			(show_name no)
@@ -3265,28 +3263,26 @@
 		(fields_autoplaced yes)
 		(uuid "53434148-c5a6-4555-9515-7044fd14dc3c")
 		(property "Reference" "R9"
-			(at 62.2299 38.1 0)
+			(at 63.5 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "34,0K"
-			(at 64.7699 38.1 0)
+		(property "Value" "34.0K"
+			(at 63.5 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.754 39.624 90)
 			(hide yes)
 			(show_name no)
@@ -3445,7 +3441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.604 126.746 90)
 			(hide yes)
 			(show_name no)
@@ -3515,7 +3511,7 @@
 				)
 			)
 		)
-		(property "Value" "90,9k"
+		(property "Value" "90.9k"
 			(at 82.55 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +3521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.804 75.184 90)
 			(hide yes)
 			(show_name no)
@@ -3674,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Value" "44,2k"
+		(property "Value" "44.2k"
 			(at 50.8 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.054 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -3924,7 +3920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.086 33.274 90)
 			(hide yes)
 			(show_name no)
@@ -4004,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.194 138.176 90)
 			(hide yes)
 			(show_name no)
@@ -4165,7 +4161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.436 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -4245,7 +4241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.774 75.184 90)
 			(hide yes)
 			(show_name no)
@@ -4481,7 +4477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-14N"
+		(property "Footprint" "SamacSys:SOP65P640X120-14N"
 			(at 165.1 122.86 0)
 			(hide yes)
 			(show_name no)
@@ -4740,7 +4736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 178.816 128.524 90)
 			(hide yes)
 			(show_name no)

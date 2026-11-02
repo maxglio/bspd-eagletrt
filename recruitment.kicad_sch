@@ -1241,7 +1241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "43650-03YY"
+		(property "Footprint" "SamacSys:43650-03YY"
 			(at 127.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1387,7 +1387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "43650-03YY"
+		(property "Footprint" "SamacSys:43650-03YY"
 			(at 127.94 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -1534,7 +1534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "43650-02(00,01,02)"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal"
 			(at 245.11 216.84 0)
 			(hide yes)
 			(show_name no)
@@ -1755,7 +1755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "43650-02(00,01,02)"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal"
 			(at 31.75 163.5 0)
 			(hide yes)
 			(show_name no)

@@ -156,13 +156,12 @@
                                                                  [SENSOR_OK] -^     [power-on reset] -^
 
         -Timer
-        The timer is based on RC architecture, powered from the AND 1, and followed by a schmitt trigger inverter.
-        When hard braking and high power are present at the same time, the AND1 output goes high. the capacitor starts charging and When its voltage crosses the threshold of the Schmitt trigger, the inverter output goes low (fault).
-        The schmitt is placed because the capacitor charges slowly,and thanks to his hysteresis it switches only with a clean edge.
-        The chosen schmitt triggere is the Nexperia 74HC14PW-Q100, which has positive going threshold of 2.38V when powerd at 4.5V and 3.14V at 6.0V. 
-        Interpolating between the two at 4.94V the threshold will be about 2.60V.
-        From inverting the capacitor charging formula t = 0,75τ, the chosen delay was 485ms, just below the 500ms, this gives a τ = 0.65s,
-        Choosing a 1uF capacitor, and τ = R*C we got R = 650k.
+        The timer is an RC network driven by AND 1 and followed by a Schmitt-trigger inverter.
+        When hard braking and high power are present at the same time, the AND 1 output goes high and the capacitor starts charging. When its voltage crosses the threshold of the Schmitt trigger, the inverter output goes low (fault).
+        The Schmitt trigger is needed because the capacitor charges slowly: thanks to its hysteresis it switches only once, with a clean edge.
+        The chosen Schmitt trigger is the Nexperia 74HC14PW-Q100, whose positive-going threshold is 2.38 V at 4.5 V and 3.14 V at 6.0 V. Interpolating at 4.94 V, the threshold is about 2.60 V.
+        From the capacitor charging formula, t = 0.75 * τ. The delay was set to 485 ms, just below 500 ms, which gives τ = 0.647 s.
+        Since no 1 µF C0G capacitor is available with AEC-Q200 qualification, a 470 nF C0G capacitor was chosen (stable with temperature and voltage), so R = τ / C ≈ 1.376 MΩ → 1.37 MΩ (E96), for a delay of 0.75 * 1.37 MΩ * 470 nF ≈ 483 ms.
 
         -Sensor fault
         AND 2 combines the timer output with SENSOR_OK, so BSPD_OK is high only if both are high. A sensor fault reaches the latch immediately, without passing through the timer.

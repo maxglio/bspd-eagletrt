@@ -1983,7 +1983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMLD12EN1WT86C"
+		(property "Footprint" "SamacSys:SMLD12EN1WT86C"
 			(at 195.25 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2127,7 +2127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" "SamacSys:SOT95P230X110-3N"
 			(at 137.16 211.76 0)
 			(hide yes)
 			(show_name no)
@@ -2670,7 +2670,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8cd4314-ecfc-45b8-8220-495370b170ca")
 		(property "Reference" "C15"
 			(at 102.87 85.0899 0)
@@ -2684,7 +2683,7 @@
 			)
 		)
 		(property "Value" "100n 50V X7R"
-			(at 102.87 87.6299 0)
+			(at 115.316 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2853,7 +2852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ATXS20020SS"
+		(property "Footprint" "SamacSys:ATXS20020SS"
 			(at 220.98 162.23 0)
 			(hide yes)
 			(show_name no)
@@ -2992,7 +2991,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "feb11cc9-f478-477b-979c-a25c4af1ee7e")
 		(property "Reference" "C14"
 			(at 91.44 85.0899 0)
@@ -3006,7 +3004,7 @@
 			)
 		)
 		(property "Value" "10u 25V X7R"
-			(at 91.44 87.6299 0)
+			(at 91.186 89.916 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

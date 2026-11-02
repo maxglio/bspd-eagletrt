@@ -2853,8 +2853,8 @@
 				)
 			)
 		)
-		(property "Value" "1u"
-			(at 125.73 58.42 90)
+		(property "Value" "1u 25V X7R"
+			(at 125.984 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2863,7 +2863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.54 54.3052 0)
 			(hide yes)
 			(show_name no)
@@ -2921,7 +2921,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0281c36d-8a8d-44be-afc6-9615999c8394")
 		(property "Reference" "C7"
 			(at 209.55 44.4499 0)
@@ -2934,8 +2933,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
-			(at 209.55 46.9899 0)
+		(property "Value" "10p 50V C0G"
+			(at 208.534 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2945,7 +2944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 206.7052 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3025,7 +3024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PMEG6020ER115"
+		(property "Footprint" "SamacSys:PMEG6020ER115"
 			(at 35.56 -54.28 0)
 			(hide yes)
 			(show_name no)
@@ -3246,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XFL4020472MEC"
+		(property "Footprint" "SamacSys:XFL4020472MEC"
 			(at 191.77 138.1 0)
 			(hide yes)
 			(show_name no)
@@ -3457,7 +3456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.174 57.404 0)
+			(at 120.142 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3546,7 +3545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BLM18SP221SN1B"
+		(property "Footprint" "SamacSys:BLM18SP221SN1B"
 			(at 252.73 149.53 0)
 			(hide yes)
 			(show_name no)
@@ -3918,7 +3917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n 50V X7R"
 			(at 154.94 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +3928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.0952 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4009,9 +4008,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-11N"
+		(property "Footprint" "SamacSys:SOP50P490X110-11N"
 			(at 161.29 134.29 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4338,7 +4336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.034 66.294 90)
 			(hide yes)
 			(show_name no)
@@ -4651,7 +4649,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n 50V X7R"
 			(at 168.91 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4661,7 +4659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.72 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -4899,7 +4897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 223.2152 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5139,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMLD12EN1WT86C"
+		(property "Footprint" "SamacSys:SMLD12EN1WT86C"
 			(at 231.14 -66.98 0)
 			(hide yes)
 			(show_name no)
@@ -5361,7 +5359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "SamacSys:DIOM5436X244N"
 			(at -42.85 54.61 0)
 			(hide yes)
 			(show_name no)

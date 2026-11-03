@@ -1449,16 +1449,16 @@
 		(uuid "01fb4625-f90e-461f-8889-d408a2b10b79")
 	)
 	(junction
+		(at 185.928 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0201aab8-6c42-4377-ad92-45281971202b")
+	)
+	(junction
 		(at 168.91 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05b348be-a71f-47f3-91ab-3df89a4968f3")
-	)
-	(junction
-		(at 177.8 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09dd0d93-bf87-4063-a1bf-6dff87eccd0c")
 	)
 	(junction
 		(at 179.07 29.21)
@@ -1604,16 +1604,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 124.46) (xy 193.04 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c0b6d5-af38-4b0e-a841-fd6d66e133a5")
-	)
-	(wire
-		(pts
 			(xy 138.43 137.16) (xy 138.43 125.73)
 		)
 		(stroke
@@ -1654,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 124.46) (xy 177.8 124.46)
+			(xy 171.45 124.46) (xy 185.928 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1761,6 +1751,16 @@
 			(type default)
 		)
 		(uuid "4eddb855-254c-44c5-9376-0032828004ba")
+	)
+	(wire
+		(pts
+			(xy 185.928 124.46) (xy 193.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff145a6-833c-4b52-a73f-406c5e2001cc")
 	)
 	(wire
 		(pts
@@ -1874,7 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 133.35) (xy 179.07 133.35)
+			(xy 185.928 133.35) (xy 184.658 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 132.08) (xy 177.8 133.35)
+			(xy 185.928 132.08) (xy 185.928 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4704,7 +4704,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 177.8 128.27 0)
+		(at 185.928 128.27 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4715,7 +4716,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2562698-a7a0-402c-9f0d-381185aab7ab")
 		(property "Reference" "R20"
-			(at 180.34 126.9999 0)
+			(at 183.388 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4726,7 +4727,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 180.34 129.5399 0)
+			(at 183.388 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4737,7 +4738,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 178.816 128.524 90)
+			(at 184.912 128.524 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +4749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 128.27 0)
+			(at 185.928 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +4760,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 177.8 128.27 0)
+			(at 185.928 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4865,7 +4866,8 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 179.07 133.35 270)
+		(at 184.658 133.35 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4876,7 +4878,7 @@
 		(fields_autoplaced yes)
 		(uuid "c980f7f6-6f50-4782-afbe-8c91e2295bb1")
 		(property "Reference" "#PWR026"
-			(at 175.26 133.35 0)
+			(at 188.468 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,7 +4889,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 182.88 133.3499 90)
+			(at 180.848 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4898,7 +4900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 133.35 0)
+			(at 184.658 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,7 +4911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 133.35 0)
+			(at 184.658 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4920,7 +4922,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 133.35 0)
+			(at 184.658 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1701,25 +1701,25 @@
 		(dnp no)
 		(uuid "c5efe86c-1258-4b5d-9690-0bb3936eb6fa")
 		(property "Reference" "D6"
-			(at 183.388 75.184 90)
+			(at 174.752 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "BAT54S"
-			(at 180.848 75.184 90)
+			(at 174.752 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -2182,25 +2182,25 @@
 		(dnp no)
 		(uuid "f8ba1b92-49d3-4917-9bc9-085c60d2eb20")
 		(property "Reference" "D7"
-			(at 185.928 42.164 90)
+			(at 177.546 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "BAT54S"
-			(at 183.388 42.164 90)
+			(at 177.546 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"

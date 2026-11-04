@@ -5,6 +5,7 @@ _autosave-*
 fp-info-cache
 *.kicad_prl
 .history/
+*.bak
 
 # LTspice
 *.raw
